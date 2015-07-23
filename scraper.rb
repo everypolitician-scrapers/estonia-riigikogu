@@ -41,7 +41,7 @@ def scrape_mp(url)
   }
   data[:image] = URI.join(url, URI.escape(data[:image])).to_s unless data[:image].to_s.empty?
   puts data
-  ScraperWiki.save_sqlite([:name, :term], data)
+  ScraperWiki.save_sqlite([:id], data)
 end
 
 scrape_list('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/')
