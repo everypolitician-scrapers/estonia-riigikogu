@@ -25,5 +25,5 @@ end
 people = mirror('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/', 'liikmed.html')
 people.css('ul.profile-list li.item h3 a/@href').map(&:text).each do |url|
   id = url.split('/')[7]
-  mirror(url, id + '.html')
+  mirror(url, 'members/%s.html' % id)
 end
