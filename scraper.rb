@@ -16,21 +16,56 @@ class String
   end
 end
 
-def noko_for(url)
-  Nokogiri::HTML(open(url).read) 
+class Polidata
+
+  class Page
+
+    def initialize(url)
+      @url = url
+    end
+
+    def as_data
+      @md ||= Hash[ protected_methods.map { |m| [m, send(m)] } ]
+    end
+
+    private
+
+    def noko
+      @noko ||= Nokogiri::HTML(open(@url).read)
+    end
+
+  end
+
 end
 
-def scrape_list(url)
-  noko = noko_for(url)
-  noko.css('ul.profile-list li.item h3 a/@href').map(&:text).each do |link|
-    scrape_mp(URI.escape link)
+class Riigikogu
+
+  class Liikmed < Polidata::Page
+
+    protected
+
+    def members
+      noko.css('ul.profile-list li.item').map do |mp|
+        {
+          name:  mp.css('h3').text.tidy,
+          url:   URI.escape(mp.css('h3 a/@href').text),
+          email: mp.css('li a[href*="mailto"]').text,
+        }
+      end
+    end
+
   end
+end
+
+
+def noko_for(url)
+  Nokogiri::HTML(open(url).read)
 end
 
 def scrape_mp(url)
   noko = noko_for(url)
   puts url
-  data = { 
+  data = {
     id: url.split('/')[7],
     name: noko.css('.page-header h1').text.tidy,
     faction: noko.css('.content a[href*="/fraktsioonid/"]').text.tidy,
@@ -44,4 +79,7 @@ def scrape_mp(url)
   ScraperWiki.save_sqlite([:id], data)
 end
 
-scrape_list('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/')
+members = Riigikogu::Liikmed.new('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/').as_data[:members]
+members.each do |mp|
+  scrape_mp(mp[:url])
+end
