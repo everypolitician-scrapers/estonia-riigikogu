@@ -87,8 +87,22 @@ class Riigikogu
       noko.css('.icon-mail').xpath('../text()').text
     end
 
+    def facebook
+      social_media.css('a.facebook/@href').text
+    end
+
+    def twitter
+      social_media.css('a.twitter/@href').text
+    end
+
     def source
       url
+    end
+
+
+    private
+    def social_media
+      noko.xpath('//h2[.="Sotsiaalmeedia"]/following-sibling::div[@class="group"]')
     end
 
   end
@@ -97,6 +111,5 @@ end
 liikmed = Riigikogu::Liikmed.new('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/').as_data
 liikmed[:members].each do |member|
   data = Riigikogu::Saadik.new(member[:url]).as_data
-  warn data
   ScraperWiki.save_sqlite([:id], data)
 end
