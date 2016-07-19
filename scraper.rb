@@ -16,6 +16,24 @@ class String
   end
 end
 
+module OpenURI
+  class << self
+    alias __open_uri open_uri
+    def open_uri(url, *args)
+      archive_directory = '/tmp/scraper-archive'
+      unless File.directory?(archive_directory)
+        warn "Cloning archive repo into /tmp"
+        system("git clone https://github.com/tmtmtmtm/estonia-riigikogu #{archive_directory} && cd #{archive_directory} && git checkout -B scraped-pages-archive")
+      end
+      OpenURI::Cache.cache_path = archive_directory
+      response = __open_uri(url, *args)
+      message = "#{response.status.join(' ')} #{url}"
+      system("cd #{archive_directory} && git add . && git commit --allow-empty --message='#{message}'")
+      response
+    end
+  end
+end
+
 class Polidata
 
   class Page
@@ -113,3 +131,5 @@ liikmed[:members].each do |member|
   data = Riigikogu::Saadik.new(member[:url]).as_data
   ScraperWiki.save_sqlite([:id], data)
 end
+
+system('cd /tmp/scraper-archive && git push origin scraped-pages-archive')
