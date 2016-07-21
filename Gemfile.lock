@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/everypolitician/scraped_page_archive
+  revision: 19a2a2f842920ad5fbabb984310e8ea72912d3ba
+  branch: master
+  specs:
+    scraped_page_archive (0.1.0)
+      open-uri-cached
+
+GIT
   remote: https://github.com/openaustralia/scraperwiki-ruby.git
   revision: fc50176812505e463077d5c673d504a6a234aa78
   branch: morph_defaults
@@ -39,4 +47,11 @@ DEPENDENCIES
   nokogiri
   open-uri-cached
   pry
+  scraped_page_archive!
   scraperwiki!
+
+RUBY VERSION
+   ruby 2.0.0p353
+
+BUNDLED WITH
+   1.12.4
