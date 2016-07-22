@@ -16,7 +16,7 @@ class String
   end
 end
 
-class Polidata
+class EPolidata
 
   class Page
 
@@ -42,7 +42,7 @@ end
 
 class Riigikogu
 
-  class Liikmed < Polidata::Page
+  class Liikmed < EPolidata::Page
 
     protected
 
@@ -58,7 +58,7 @@ class Riigikogu
 
   end
 
-  class Saadik < Polidata::Page
+  class Saadik < EPolidata::Page
 
     protected
 
