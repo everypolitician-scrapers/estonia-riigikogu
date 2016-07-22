@@ -36,16 +36,17 @@ class EPolidata
       @noko ||= Nokogiri::HTML(open(url).read)
     end
 
-    def at_css(selector)
-      _at_selector(selector_type: 'css', selector: selector)
+    def at_css(selector, h={})
+      _at_selector(h.merge(selector_type: 'css', selector: selector))
     end
 
-    def at_xpath(selector)
-      _at_selector(selector_type: 'xpath', selector: selector)
+    def at_xpath(selector, h={})
+      _at_selector(h.merge(selector_type: 'xpath', selector: selector))
     end
 
     def _at_selector(h)
-      noko.send(h[:selector_type], h[:selector]).text.tidy
+      start_node = h[:scope] || noko
+      start_node.send(h[:selector_type], h[:selector]).text.tidy
     end
 
   end
@@ -100,11 +101,11 @@ class Riigikogu
     end
 
     def facebook
-      social_media.css('a.facebook/@href').text
+      at_css('a.facebook/@href', scope: social_media)
     end
 
     def twitter
-      social_media.css('a.twitter/@href').text
+      at_css('a.twitter/@href', scope: social_media)
     end
 
     def source
