@@ -36,6 +36,10 @@ class EPolidata
       @noko ||= Nokogiri::HTML(open(url).read)
     end
 
+    def at_css(selector)
+      noko.css(selector).text.tidy
+    end
+
   end
 
 end
@@ -67,11 +71,11 @@ class Riigikogu
     end
 
     def name
-      noko.css('.page-header h1').text.tidy
+      at_css('.page-header h1')
     end
 
     def faction
-      noko.css('.content a[href*="/fraktsioonid/"]').text.tidy
+      at_css('.content a[href*="/fraktsioonid/"]')
     end
 
     def image
