@@ -40,6 +40,10 @@ class EPolidata
       noko.css(selector).text.tidy
     end
 
+    def at_xpath(selector)
+      noko.xpath(selector).text.tidy
+    end
+
   end
 
 end
@@ -84,11 +88,11 @@ class Riigikogu
     end
 
     def phone
-      noko.css('.icon-tel').xpath('../text()').text
+      at_xpath('//span[contains(@class,"icon-tel")]/following-sibling::text()')
     end
 
     def email
-      noko.css('.icon-mail').xpath('../text()').text
+      at_xpath('//span[contains(@class,"icon-mail")]/following-sibling::text()')
     end
 
     def facebook
