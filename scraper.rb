@@ -49,6 +49,10 @@ class EPolidata
       start_node.send(h[:selector_type], h[:selector]).text.tidy
     end
 
+    def absolute_link(link)
+      return if link.to_s.empty?
+      URI.join(url, URI.escape(URI.unescape(link))).to_s
+    end
   end
 
 end
@@ -88,8 +92,7 @@ class Riigikogu
     end
 
     def image
-      img = noko.css('.profile-photo img/@src').text or return
-      URI.join(url, URI.escape(img)).to_s
+      absolute_link(at_css('.profile-photo img/@src'))
     end
 
     def phone
