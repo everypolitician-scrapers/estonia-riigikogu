@@ -37,11 +37,15 @@ class EPolidata
     end
 
     def at_css(selector)
-      noko.css(selector).text.tidy
+      _at_selector(selector_type: 'css', selector: selector)
     end
 
     def at_xpath(selector)
-      noko.xpath(selector).text.tidy
+      _at_selector(selector_type: 'xpath', selector: selector)
+    end
+
+    def _at_selector(h)
+      noko.send(h[:selector_type], h[:selector]).text.tidy
     end
 
   end
