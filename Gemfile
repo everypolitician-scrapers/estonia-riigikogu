@@ -13,3 +13,4 @@ gem "colorize"
 gem "nokogiri"
 gem "open-uri-cached"
 gem "fuzzy_match"
+gem 'scraped_page_archive', git: 'https://github.com/everypolitician/scraped_page_archive', branch: 'master'

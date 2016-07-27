@@ -5,6 +5,7 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'open-uri'
 require 'colorize'
+require 'scraped_page_archive'
 
 require 'pry'
 require 'open-uri/cached'
@@ -109,6 +110,14 @@ class Riigikogu
 
     def twitter
       at_css('a.twitter/@href', scope: social_media)
+    end
+
+    def facebook
+      social_media.css('a.facebook/@href').text
+    end
+
+    def twitter
+      social_media.css('a.twitter/@href').text
     end
 
     def source
