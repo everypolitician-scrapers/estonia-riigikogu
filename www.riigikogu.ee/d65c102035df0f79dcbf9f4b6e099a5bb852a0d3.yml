@@ -1,0 +1,41 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/b2226516-4cd4-4471-b93b-696c40b7a9e2/Eerik-Niiles-Kross/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Thu, 28 Jul 2016 14:44:00 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Encoding,Cookie
+    Cache-Control:
+    - max-age=3, must-revalidate
+    Wp-Super-Cache:
+    - Served supercache file from PHP
+    Last-Modified:
+    - Thu, 28 Jul 2016 06:36:15 GMT
+    Access-Control-Allow-Origin:
+    - '*'
+    Content-Length:
+    - '16090'
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 28 Jul 2016 14:44:00 GMT
