@@ -1,0 +1,40 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/5c9c68d8-7b18-4f3e-901a-afc9970cdd97/Deniss-Borodit%C5%A1
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Date:
+    - Thu, 28 Jul 2016 14:41:38 GMT
+    Server:
+    - Apache
+    Vary:
+    - Cookie
+    Set-Cookie:
+    - _icl_current_language=et; expires=Fri, 29-Jul-2016 14:41:38 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 29-Jul-2016 14:41:39 GMT; path=/
+    Location:
+    - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/5c9c68d8-7b18-4f3e-901a-afc9970cdd97/Deniss-Borodit%C5%A1/
+    Access-Control-Allow-Origin:
+    - '*'
+    Transfer-Encoding:
+    - chunked
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Thu, 28 Jul 2016 14:41:39 GMT
