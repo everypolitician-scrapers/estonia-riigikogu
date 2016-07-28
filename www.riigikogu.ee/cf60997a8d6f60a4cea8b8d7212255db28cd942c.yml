@@ -1,0 +1,41 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/65b1d8bb-7f45-48f5-b4aa-7ba4ca459824/Henn-P%C3%B5lluaas/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Thu, 28 Jul 2016 14:49:18 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Encoding,Cookie
+    Cache-Control:
+    - max-age=3, must-revalidate
+    Wp-Super-Cache:
+    - Served supercache file from PHP
+    Last-Modified:
+    - Thu, 28 Jul 2016 06:38:29 GMT
+    Access-Control-Allow-Origin:
+    - '*'
+    Content-Length:
+    - '15805'
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 28 Jul 2016 14:49:18 GMT
