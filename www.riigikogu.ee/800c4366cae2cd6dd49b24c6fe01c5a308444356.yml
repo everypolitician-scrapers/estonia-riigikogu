@@ -1,0 +1,41 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/74f8df6d-6f4d-410b-8b45-bf58922cf421/Mailis-Reps/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Thu, 28 Jul 2016 14:50:44 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Encoding,Cookie
+    Cache-Control:
+    - max-age=3, must-revalidate
+    Wp-Super-Cache:
+    - Served supercache file from PHP
+    Last-Modified:
+    - Thu, 28 Jul 2016 14:33:27 GMT
+    Access-Control-Allow-Origin:
+    - '*'
+    Content-Length:
+    - '17677'
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 28 Jul 2016 14:50:44 GMT
