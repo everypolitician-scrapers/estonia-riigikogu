@@ -1,0 +1,41 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ecbd080f-ee6a-4287-9dff-393cf5c8e880/Jaak-Madison/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Thu, 28 Jul 2016 14:45:46 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Encoding,Cookie
+    Cache-Control:
+    - max-age=3, must-revalidate
+    Wp-Super-Cache:
+    - Served supercache file from PHP
+    Last-Modified:
+    - Thu, 28 Jul 2016 06:37:01 GMT
+    Access-Control-Allow-Origin:
+    - '*'
+    Content-Length:
+    - '14794'
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 28 Jul 2016 14:45:46 GMT
