@@ -1,0 +1,41 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/f8c52c41-38b3-41bd-b5fe-a3245d518404/Einar-Vallbaum/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Thu, 28 Jul 2016 14:56:25 GMT
+    Server:
+    - Apache
+    Vary:
+    - Accept-Encoding,Cookie
+    Cache-Control:
+    - max-age=3, must-revalidate
+    Wp-Super-Cache:
+    - Served supercache file from PHP
+    Last-Modified:
+    - Thu, 28 Jul 2016 06:40:20 GMT
+    Access-Control-Allow-Origin:
+    - '*'
+    Content-Length:
+    - '14958'
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 28 Jul 2016 14:56:25 GMT
