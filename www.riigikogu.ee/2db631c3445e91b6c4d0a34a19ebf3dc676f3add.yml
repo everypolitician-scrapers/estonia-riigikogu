@@ -1,0 +1,40 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/fdeb3c21-d9cf-46e9-8173-3fb22cd872ba/Andre-Sepp
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Date:
+    - Thu, 28 Jul 2016 14:51:37 GMT
+    Server:
+    - Apache
+    Vary:
+    - Cookie
+    Set-Cookie:
+    - _icl_current_language=et; expires=Fri, 29-Jul-2016 14:51:37 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 29-Jul-2016 14:51:38 GMT; path=/
+    Location:
+    - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/fdeb3c21-d9cf-46e9-8173-3fb22cd872ba/Andre-Sepp/
+    Access-Control-Allow-Origin:
+    - '*'
+    Transfer-Encoding:
+    - chunked
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Thu, 28 Jul 2016 14:51:38 GMT
