@@ -18,23 +18,27 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 28 Jul 2016 14:44:31 GMT
+    - Tue, 09 Aug 2016 06:38:25 GMT
     Server:
     - Apache
+    X-Frame-Options:
+    - SAMEORIGIN
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 29-Jul-2016 14:44:31 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 29-Jul-2016 14:44:32 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 10-Aug-2016 06:38:26 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 10-Aug-2016 06:38:26 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/1d0b281d-b769-4e94-8c67-faa1cb1b1395/Helmen-K%C3%BCtt/
+    X-Xss-Protecion:
+    - 1; mode=block
     Access-Control-Allow-Origin:
     - '*'
-    Transfer-Encoding:
-    - chunked
     Content-Type:
     - text/html; charset=UTF-8
+    Content-Length:
+    - '0'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 28 Jul 2016 14:44:32 GMT
+recorded_at: Tue, 09 Aug 2016 06:38:26 GMT
