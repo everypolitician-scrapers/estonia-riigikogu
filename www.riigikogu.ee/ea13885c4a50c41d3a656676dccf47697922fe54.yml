@@ -18,24 +18,26 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 28 Jul 2016 14:43:10 GMT
+    - Tue, 09 Aug 2016 06:29:26 GMT
     Server:
     - Apache
+    X-Frame-Options:
+    - SAMEORIGIN
     Vary:
     - Accept-Encoding,Cookie
     Cache-Control:
     - max-age=3, must-revalidate
-    Wp-Super-Cache:
-    - Served supercache file from PHP
     Last-Modified:
-    - Thu, 28 Jul 2016 06:35:42 GMT
+    - Tue, 09 Aug 2016 05:29:48 GMT
+    X-Xss-Protecion:
+    - 1; mode=block
     Access-Control-Allow-Origin:
     - '*'
     Content-Length:
-    - '15740'
+    - '15748'
     Content-Type:
     - text/html; charset=UTF-8
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 28 Jul 2016 14:43:11 GMT
+recorded_at: Tue, 09 Aug 2016 06:29:26 GMT
