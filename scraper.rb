@@ -5,7 +5,7 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'open-uri'
 require 'colorize'
-require 'scraped_page_archive'
+require 'scraped_page_archive/open-uri'
 
 require 'pry'
 require 'open-uri/cached'
