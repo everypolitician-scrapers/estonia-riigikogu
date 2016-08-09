@@ -18,23 +18,27 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 28 Jul 2016 14:42:03 GMT
+    - Tue, 09 Aug 2016 06:21:54 GMT
     Server:
     - Apache
+    X-Frame-Options:
+    - SAMEORIGIN
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 29-Jul-2016 14:42:03 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 29-Jul-2016 14:42:03 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 10-Aug-2016 06:21:54 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 10-Aug-2016 06:21:55 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/5ea230e2-5d34-46e1-9e4c-3966903f6b15/Monika-Haukan%C3%B5mm/
+    X-Xss-Protecion:
+    - 1; mode=block
     Access-Control-Allow-Origin:
     - '*'
-    Transfer-Encoding:
-    - chunked
     Content-Type:
     - text/html; charset=UTF-8
+    Content-Length:
+    - '0'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 28 Jul 2016 14:42:04 GMT
+recorded_at: Tue, 09 Aug 2016 06:21:55 GMT
