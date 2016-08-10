@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 09 Aug 2016 06:34:01 GMT
+    - Wed, 10 Aug 2016 22:25:35 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 10-Aug-2016 06:34:01 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 10-Aug-2016 06:34:02 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 11-Aug-2016 22:25:35 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 11-Aug-2016 22:25:36 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e6416c11-b0c5-459a-96f9-c9549bbaaa81/Siret-Kotka/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 09 Aug 2016 06:34:02 GMT
+recorded_at: Wed, 10 Aug 2016 22:25:36 GMT
