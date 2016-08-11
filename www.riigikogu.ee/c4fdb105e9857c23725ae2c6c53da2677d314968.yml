@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 10 Aug 2016 23:04:45 GMT
+    - Thu, 11 Aug 2016 17:18:46 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 11-Aug-2016 23:04:46 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 11-Aug-2016 23:04:46 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 12-Aug-2016 17:18:46 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 12-Aug-2016 17:18:47 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e0767645-54aa-4084-9dd3-ed196172dabb/Vladimir-Velman/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 10 Aug 2016 23:04:47 GMT
+recorded_at: Thu, 11 Aug 2016 17:18:47 GMT
