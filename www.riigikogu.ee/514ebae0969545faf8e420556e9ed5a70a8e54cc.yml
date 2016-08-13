@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 12 Aug 2016 10:07:42 GMT
+    - Sat, 13 Aug 2016 18:11:31 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 13-Aug-2016 10:07:42 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 13-Aug-2016 10:07:42 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 14-Aug-2016 18:11:31 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 14-Aug-2016 18:11:32 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/caea357b-12c0-4069-b53e-89f69f517212/Kersti-Sarapuu/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 12 Aug 2016 10:07:42 GMT
+recorded_at: Sat, 13 Aug 2016 18:11:32 GMT
