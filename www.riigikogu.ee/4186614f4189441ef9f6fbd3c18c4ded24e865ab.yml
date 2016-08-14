@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 13 Aug 2016 18:06:33 GMT
+    - Sun, 14 Aug 2016 15:55:17 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 14-Aug-2016 18:06:33 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 14-Aug-2016 18:06:34 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 15-Aug-2016 15:55:17 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 15-Aug-2016 15:55:17 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e87a03b8-08cf-4b88-8a28-f26da1d65e30/Keit-Pentus-Rosimannus/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 13 Aug 2016 18:06:34 GMT
+recorded_at: Sun, 14 Aug 2016 15:55:18 GMT
