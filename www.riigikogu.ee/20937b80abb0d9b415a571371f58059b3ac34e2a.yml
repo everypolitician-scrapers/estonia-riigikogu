@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 13 Aug 2016 17:46:46 GMT
+    - Sun, 14 Aug 2016 15:36:18 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 14-Aug-2016 17:46:46 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 14-Aug-2016 17:46:47 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 15-Aug-2016 15:36:18 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 15-Aug-2016 15:36:18 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/09500870-255e-416d-8eda-f80e9929adda/J%C3%BCri-Jaanson/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 13 Aug 2016 17:46:47 GMT
+recorded_at: Sun, 14 Aug 2016 15:36:19 GMT
