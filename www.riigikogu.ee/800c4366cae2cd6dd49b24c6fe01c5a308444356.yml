@@ -18,26 +18,28 @@ response:
     message: OK
   headers:
     Date:
-    - Sat, 13 Aug 2016 18:11:16 GMT
+    - Sun, 14 Aug 2016 16:00:19 GMT
     Server:
     - Apache
     X-Frame-Options:
     - SAMEORIGIN
     Vary:
-    - Accept-Encoding,Cookie
-    Cache-Control:
-    - max-age=3, must-revalidate
-    Last-Modified:
-    - Sat, 13 Aug 2016 17:05:48 GMT
+    - Cookie,Accept-Encoding
+    Set-Cookie:
+    - _icl_current_language=et; expires=Mon, 15-Aug-2016 16:00:19 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 15-Aug-2016 16:00:20 GMT; path=/
+    Link:
+    - <http://www.riigikogu.ee/?p=515>; rel=shortlink
+    - <http://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
     - '*'
-    Content-Length:
-    - '17487'
     Content-Type:
     - text/html; charset=UTF-8
+    Content-Length:
+    - '17487'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 13 Aug 2016 18:11:16 GMT
+recorded_at: Sun, 14 Aug 2016 16:00:23 GMT
