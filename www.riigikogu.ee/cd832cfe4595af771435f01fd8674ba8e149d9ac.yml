@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 13 Aug 2016 17:39:30 GMT
+    - Sun, 14 Aug 2016 15:28:23 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 14-Aug-2016 17:39:30 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 14-Aug-2016 17:39:31 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 15-Aug-2016 15:28:23 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 15-Aug-2016 15:28:23 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/01e6473e-8d4d-4b94-9266-0e5082e94942/Andres-Ammas/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 13 Aug 2016 17:39:31 GMT
+recorded_at: Sun, 14 Aug 2016 15:28:24 GMT
