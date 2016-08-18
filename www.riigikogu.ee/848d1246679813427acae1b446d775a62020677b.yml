@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 18 Aug 2016 06:21:29 GMT
+    - Thu, 18 Aug 2016 22:26:54 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 19-Aug-2016 06:21:29 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 19-Aug-2016 06:21:29 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 19-Aug-2016 22:26:54 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 19-Aug-2016 22:26:54 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/8719c4cd-291e-4216-b3e1-8b5a0d7902fb/Sven-Mikser/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 18 Aug 2016 06:21:29 GMT
+recorded_at: Thu, 18 Aug 2016 22:26:54 GMT
