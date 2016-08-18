@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Mon, 15 Aug 2016 23:11:32 GMT
+    - Thu, 18 Aug 2016 06:12:58 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Tue, 16-Aug-2016 23:11:32 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 16-Aug-2016 23:11:33 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 19-Aug-2016 06:12:58 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 19-Aug-2016 06:12:59 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/8153acb2-28a5-4145-8cfc-28b0bc8f7e09/Kristjan-K%C3%B5ljalg/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 15 Aug 2016 23:11:33 GMT
+recorded_at: Thu, 18 Aug 2016 06:12:59 GMT
