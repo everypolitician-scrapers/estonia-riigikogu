@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 18 Aug 2016 06:32:45 GMT
+    - Thu, 18 Aug 2016 22:40:44 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 19-Aug-2016 06:32:45 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 19-Aug-2016 06:32:46 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 19-Aug-2016 22:40:44 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 19-Aug-2016 22:40:44 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/74f8df6d-6f4d-410b-8b45-bf58922cf421/Mailis-Reps/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 18 Aug 2016 06:32:46 GMT
+recorded_at: Thu, 18 Aug 2016 22:40:44 GMT
