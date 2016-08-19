@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 18 Aug 2016 22:16:23 GMT
+    - Fri, 19 Aug 2016 21:36:25 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 19-Aug-2016 22:16:23 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 19-Aug-2016 22:16:24 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 20-Aug-2016 21:36:26 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 20-Aug-2016 21:36:26 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/9c583623-eb94-48de-bf39-2bf49759c5a6/Mihhail-Korb/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 18 Aug 2016 22:16:24 GMT
+recorded_at: Fri, 19 Aug 2016 21:36:26 GMT
