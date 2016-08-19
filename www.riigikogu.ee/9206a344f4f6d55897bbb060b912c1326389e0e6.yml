@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 18 Aug 2016 22:20:36 GMT
+    - Fri, 19 Aug 2016 21:41:20 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 19-Aug-2016 22:20:36 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 19-Aug-2016 22:20:37 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 20-Aug-2016 21:41:20 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 20-Aug-2016 21:41:20 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/103bdae6-c980-4bd4-8e57-e8af4df13f4b/Ants-Laaneots/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 18 Aug 2016 22:20:37 GMT
+recorded_at: Fri, 19 Aug 2016 21:41:21 GMT
