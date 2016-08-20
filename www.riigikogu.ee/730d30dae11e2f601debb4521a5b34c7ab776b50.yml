@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 19 Aug 2016 21:30:52 GMT
+    - Sat, 20 Aug 2016 08:50:18 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 20-Aug-2016 21:30:52 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 20-Aug-2016 21:30:52 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 21-Aug-2016 08:50:18 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 21-Aug-2016 08:50:18 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/98008392-64a2-4429-8a41-fb051823e402/Martin-Helme/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 19 Aug 2016 21:30:53 GMT
+recorded_at: Sat, 20 Aug 2016 08:50:19 GMT
