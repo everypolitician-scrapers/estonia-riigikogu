@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 20 Aug 2016 09:15:16 GMT
+    - Sun, 21 Aug 2016 01:36:22 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 21-Aug-2016 09:15:16 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 21-Aug-2016 09:15:16 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 22-Aug-2016 01:36:22 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 22-Aug-2016 01:36:22 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/65b1d8bb-7f45-48f5-b4aa-7ba4ca459824/Henn-P%C3%B5lluaas/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 20 Aug 2016 09:15:17 GMT
+recorded_at: Sun, 21 Aug 2016 01:36:23 GMT
