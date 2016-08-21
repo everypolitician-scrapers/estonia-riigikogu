@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Sat, 20 Aug 2016 08:47:55 GMT
+    - Sun, 21 Aug 2016 01:10:59 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie,Accept-Encoding
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 21-Aug-2016 08:47:55 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 21-Aug-2016 08:47:55 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 22-Aug-2016 01:11:00 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 22-Aug-2016 01:11:00 GMT; path=/
     Link:
     - <http://www.riigikogu.ee/?p=515>; rel=shortlink
     - <http://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
@@ -38,8 +38,8 @@ response:
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '15284'
+    - '15280'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 20 Aug 2016 08:47:58 GMT
+recorded_at: Sun, 21 Aug 2016 01:11:02 GMT
