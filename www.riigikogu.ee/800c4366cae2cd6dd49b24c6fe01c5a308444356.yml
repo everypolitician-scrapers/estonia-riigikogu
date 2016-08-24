@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Tue, 23 Aug 2016 20:06:12 GMT
+    - Wed, 24 Aug 2016 08:05:53 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -28,16 +28,16 @@ response:
     Cache-Control:
     - max-age=3, must-revalidate
     Last-Modified:
-    - Tue, 23 Aug 2016 19:44:22 GMT
+    - Wed, 24 Aug 2016 06:21:50 GMT
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
     - '*'
     Content-Length:
-    - '17593'
+    - '17588'
     Content-Type:
     - text/html; charset=UTF-8
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 23 Aug 2016 20:06:13 GMT
+recorded_at: Wed, 24 Aug 2016 08:05:53 GMT
