@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 23 Aug 2016 19:33:01 GMT
+    - Wed, 24 Aug 2016 07:31:23 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 24-Aug-2016 19:33:01 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 24-Aug-2016 19:33:01 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 25-Aug-2016 07:31:24 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 25-Aug-2016 07:31:24 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/3c54682c-4050-471a-bd09-27481a034f82/Maire-Aunaste/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 23 Aug 2016 19:33:02 GMT
+recorded_at: Wed, 24 Aug 2016 07:31:24 GMT
