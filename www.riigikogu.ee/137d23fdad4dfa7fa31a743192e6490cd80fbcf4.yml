@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 23 Aug 2016 19:40:32 GMT
+    - Wed, 24 Aug 2016 07:39:18 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 24-Aug-2016 19:40:32 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 24-Aug-2016 19:40:33 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 25-Aug-2016 07:39:19 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 25-Aug-2016 07:39:19 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/f45d0388-db27-47eb-b13d-f6d147ef4d6e/Uno-Kaskpeit/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 23 Aug 2016 19:40:33 GMT
+recorded_at: Wed, 24 Aug 2016 07:39:19 GMT
