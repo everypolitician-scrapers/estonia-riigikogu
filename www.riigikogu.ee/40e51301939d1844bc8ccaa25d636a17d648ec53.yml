@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 24 Aug 2016 08:13:06 GMT
+    - Thu, 25 Aug 2016 12:18:42 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 25-Aug-2016 08:13:06 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 25-Aug-2016 08:13:06 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 26-Aug-2016 12:18:42 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 26-Aug-2016 12:18:42 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/059a2370-53f7-480c-9700-8d33d0496560/Tanel-Talve/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 24 Aug 2016 08:13:07 GMT
+recorded_at: Thu, 25 Aug 2016 12:18:44 GMT
