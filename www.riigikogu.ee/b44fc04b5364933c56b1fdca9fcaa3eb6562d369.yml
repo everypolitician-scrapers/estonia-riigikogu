@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 24 Aug 2016 07:30:52 GMT
+    - Thu, 25 Aug 2016 11:32:41 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 25-Aug-2016 07:30:52 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 25-Aug-2016 07:30:53 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 26-Aug-2016 11:32:41 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 26-Aug-2016 11:32:42 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/13ae3199-f2e4-4b49-a73b-f2880451da33/Peep-Aru/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 24 Aug 2016 07:30:53 GMT
+recorded_at: Thu, 25 Aug 2016 11:32:42 GMT
