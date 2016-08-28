@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 27 Aug 2016 02:26:52 GMT
+    - Sun, 28 Aug 2016 09:04:21 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 28-Aug-2016 02:26:53 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 28-Aug-2016 02:26:53 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 29-Aug-2016 09:04:21 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 29-Aug-2016 09:04:22 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/c79c2162-d406-445a-91bb-4c4f9556efb2/Terje-Trei/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 27 Aug 2016 02:26:53 GMT
+recorded_at: Sun, 28 Aug 2016 09:04:22 GMT
