@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 30 Aug 2016 17:47:19 GMT
+    - Wed, 31 Aug 2016 23:55:42 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 31-Aug-2016 17:47:19 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 31-Aug-2016 17:47:19 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 01-Sep-2016 23:55:42 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 01-Sep-2016 23:55:42 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/b0eb11ef-75b9-4427-b8d0-20d38af2903a/Raivo-P%C3%B5ldaru/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 30 Aug 2016 17:47:20 GMT
+recorded_at: Wed, 31 Aug 2016 23:55:43 GMT
