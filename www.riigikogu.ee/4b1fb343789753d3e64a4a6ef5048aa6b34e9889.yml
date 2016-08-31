@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 30 Aug 2016 17:39:17 GMT
+    - Wed, 31 Aug 2016 23:48:05 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,8 +26,8 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 31-Aug-2016 17:39:17 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 31-Aug-2016 17:39:17 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 01-Sep-2016 23:48:05 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 01-Sep-2016 23:48:06 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/13fe7449-a3ec-4e2e-86aa-256d8ce8475c/Jaanus-Marrandi/
     X-Xss-Protecion:
@@ -41,4 +41,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 30 Aug 2016 17:39:17 GMT
+recorded_at: Wed, 31 Aug 2016 23:48:06 GMT
