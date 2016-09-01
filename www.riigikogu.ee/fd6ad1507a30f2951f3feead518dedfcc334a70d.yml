@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 01 Sep 2016 00:04:52 GMT
+    - Thu, 01 Sep 2016 17:18:23 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,10 +26,14 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 02-Sep-2016 00:04:52 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 02-Sep-2016 00:04:53 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 02-Sep-2016 17:18:23 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 02-Sep-2016 17:18:23 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/0c571754-914d-406a-baba-6734212353de/Urve-Tiidus/
+    Cache-Control:
+    - max-age=43200
+    Expires:
+    - Fri, 02 Sep 2016 05:18:23 GMT
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
@@ -41,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 01 Sep 2016 00:04:53 GMT
+recorded_at: Thu, 01 Sep 2016 17:18:24 GMT
