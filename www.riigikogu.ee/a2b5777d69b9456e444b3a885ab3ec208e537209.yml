@@ -18,7 +18,7 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 01 Sep 2016 00:03:37 GMT
+    - Thu, 01 Sep 2016 17:16:50 GMT
     Server:
     - Apache
     X-Frame-Options:
@@ -26,10 +26,14 @@ response:
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 02-Sep-2016 00:03:37 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 02-Sep-2016 00:03:37 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 02-Sep-2016 17:16:50 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 02-Sep-2016 17:16:50 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/5650dddf-f2ca-4b94-8888-e7482808f81b/Aivar-S%C3%B5erd/
+    Cache-Control:
+    - max-age=43200
+    Expires:
+    - Fri, 02 Sep 2016 05:16:50 GMT
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
@@ -41,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 01 Sep 2016 00:03:38 GMT
+recorded_at: Thu, 01 Sep 2016 17:16:50 GMT
