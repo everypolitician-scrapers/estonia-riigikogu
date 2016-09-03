@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 02 Sep 2016 19:05:14 GMT
+    - Sat, 03 Sep 2016 11:43:14 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 03-Sep-2016 19:05:15 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 03-Sep-2016 19:05:15 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 04-Sep-2016 11:43:14 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 04-Sep-2016 11:43:15 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/8940964b-6bfd-482d-a4f5-53f2cccb149d/Priit-Sibul/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 03 Sep 2016 07:05:14 GMT
+    - Sat, 03 Sep 2016 23:43:14 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 02 Sep 2016 19:05:15 GMT
+recorded_at: Sat, 03 Sep 2016 11:43:15 GMT
