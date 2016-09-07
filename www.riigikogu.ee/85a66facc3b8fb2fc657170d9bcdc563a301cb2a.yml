@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Mon, 05 Sep 2016 15:27:18 GMT
+    - Wed, 07 Sep 2016 10:20:04 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Tue, 06-Sep-2016 15:27:19 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 06-Sep-2016 15:27:19 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 08-Sep-2016 10:20:04 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 08-Sep-2016 10:20:04 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/bd171edb-9d99-483e-acc1-dfca5d6deb18/Juhan-Parts/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 06 Sep 2016 03:27:18 GMT
+    - Wed, 07 Sep 2016 22:20:04 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 05 Sep 2016 15:27:19 GMT
+recorded_at: Wed, 07 Sep 2016 10:20:04 GMT
