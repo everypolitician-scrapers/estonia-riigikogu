@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 07 Sep 2016 10:20:58 GMT
+    - Thu, 08 Sep 2016 15:33:17 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 08-Sep-2016 10:20:58 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 08-Sep-2016 10:20:59 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 09-Sep-2016 15:33:18 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 09-Sep-2016 15:33:18 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/cb6b45a7-5dcb-4a3b-bb18-2b79fe3278ae/Heidy-Purga/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Wed, 07 Sep 2016 22:20:58 GMT
+    - Fri, 09 Sep 2016 03:33:17 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 07 Sep 2016 10:20:59 GMT
+recorded_at: Thu, 08 Sep 2016 15:33:18 GMT
