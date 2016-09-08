@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 07 Sep 2016 10:30:33 GMT
+    - Thu, 08 Sep 2016 15:43:41 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 08-Sep-2016 10:30:33 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 08-Sep-2016 10:30:33 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 09-Sep-2016 15:43:41 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 09-Sep-2016 15:43:42 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/76afbcdc-b41d-4fc6-b5eb-d0cce01e94d5/Tarmo-Tamm/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Wed, 07 Sep 2016 22:30:33 GMT
+    - Fri, 09 Sep 2016 03:43:41 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 07 Sep 2016 10:30:33 GMT
+recorded_at: Thu, 08 Sep 2016 15:43:42 GMT
