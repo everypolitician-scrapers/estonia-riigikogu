@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 08 Sep 2016 15:43:17 GMT
+    - Fri, 09 Sep 2016 21:53:04 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 09-Sep-2016 15:43:17 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 09-Sep-2016 15:43:17 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 10-Sep-2016 21:53:04 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 10-Sep-2016 21:53:05 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e6c4032b-6803-4a5e-b857-f181c1a81685/Artur-Talvik/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 09 Sep 2016 03:43:17 GMT
+    - Sat, 10 Sep 2016 09:53:04 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 08 Sep 2016 15:43:18 GMT
+recorded_at: Fri, 09 Sep 2016 21:53:05 GMT
