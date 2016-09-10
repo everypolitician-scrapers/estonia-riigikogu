@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 09 Sep 2016 21:56:37 GMT
+    - Sat, 10 Sep 2016 21:10:21 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 10-Sep-2016 21:56:37 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 10-Sep-2016 21:56:37 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 11-Sep-2016 21:10:21 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 11-Sep-2016 21:10:21 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/f8c52c41-38b3-41bd-b5fe-a3245d518404/Einar-Vallbaum/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 10 Sep 2016 09:56:37 GMT
+    - Sun, 11 Sep 2016 09:10:21 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 09 Sep 2016 21:56:37 GMT
+recorded_at: Sat, 10 Sep 2016 21:10:22 GMT
