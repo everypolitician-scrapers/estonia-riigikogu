@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 10 Sep 2016 20:37:00 GMT
+    - Sun, 11 Sep 2016 03:05:23 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 11-Sep-2016 20:37:01 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 11-Sep-2016 20:37:01 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 12-Sep-2016 03:05:23 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 12-Sep-2016 03:05:23 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/5958ba28-6672-426f-b533-bea2f9c8d64e/Igor-Gr%C3%A4zin/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 11 Sep 2016 08:37:00 GMT
+    - Sun, 11 Sep 2016 15:05:23 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 10 Sep 2016 20:37:01 GMT
+recorded_at: Sun, 11 Sep 2016 03:05:24 GMT
