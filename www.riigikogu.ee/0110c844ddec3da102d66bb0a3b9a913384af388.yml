@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 10 Sep 2016 21:08:44 GMT
+    - Sun, 11 Sep 2016 03:36:24 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 11-Sep-2016 21:08:45 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 11-Sep-2016 21:08:45 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 12-Sep-2016 03:36:24 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 12-Sep-2016 03:36:24 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/c79c2162-d406-445a-91bb-4c4f9556efb2/Terje-Trei/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 11 Sep 2016 09:08:44 GMT
+    - Sun, 11 Sep 2016 15:36:24 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 10 Sep 2016 21:08:45 GMT
+recorded_at: Sun, 11 Sep 2016 03:36:25 GMT
