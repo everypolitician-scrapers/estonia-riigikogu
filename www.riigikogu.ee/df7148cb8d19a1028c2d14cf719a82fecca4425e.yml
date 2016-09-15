@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 14 Sep 2016 16:55:47 GMT
+    - Thu, 15 Sep 2016 08:06:15 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 15-Sep-2016 16:55:48 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 15-Sep-2016 16:55:48 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 16-Sep-2016 08:06:15 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 16-Sep-2016 08:06:15 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ce3f9ed0-083c-4d0f-b45a-096610012b5f/Martin-Repinski/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Thu, 15 Sep 2016 04:55:47 GMT
+    - Thu, 15 Sep 2016 20:06:15 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 14 Sep 2016 16:55:48 GMT
+recorded_at: Thu, 15 Sep 2016 08:06:15 GMT
