@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Mon, 19 Sep 2016 14:55:25 GMT
+    - Tue, 20 Sep 2016 02:37:52 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Tue, 20-Sep-2016 14:55:25 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 20-Sep-2016 14:55:26 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 21-Sep-2016 02:37:52 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 21-Sep-2016 02:37:53 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/08134982-2ac6-436c-ad8f-8f941ca41d3c/Viktoria-Lad%C3%B5nskaja/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 20 Sep 2016 02:55:25 GMT
+    - Tue, 20 Sep 2016 14:37:52 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 19 Sep 2016 14:55:26 GMT
+recorded_at: Tue, 20 Sep 2016 02:37:53 GMT
