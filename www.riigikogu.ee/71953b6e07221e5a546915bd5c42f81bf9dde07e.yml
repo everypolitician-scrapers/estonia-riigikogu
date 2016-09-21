@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 21 Sep 2016 09:54:29 GMT
+    - Wed, 21 Sep 2016 11:47:50 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 22-Sep-2016 09:54:29 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 22-Sep-2016 09:54:29 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 22-Sep-2016 11:47:50 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 22-Sep-2016 11:47:50 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ca5eb437-2288-4945-bc12-325f98008ed3/Kalle-Palling/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Wed, 21 Sep 2016 21:54:29 GMT
+    - Wed, 21 Sep 2016 23:47:50 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 21 Sep 2016 09:54:30 GMT
+recorded_at: Wed, 21 Sep 2016 11:47:50 GMT
