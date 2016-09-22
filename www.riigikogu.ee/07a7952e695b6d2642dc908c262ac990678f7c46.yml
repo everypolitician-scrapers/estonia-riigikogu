@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 21 Sep 2016 11:49:07 GMT
+    - Thu, 22 Sep 2016 03:34:30 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 22-Sep-2016 11:49:07 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 22-Sep-2016 11:49:08 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 23-Sep-2016 03:34:30 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 23-Sep-2016 03:34:31 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/b5922bb2-56bb-4de6-a7e1-754553191c27/Heljo-Pikhof/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Wed, 21 Sep 2016 23:49:07 GMT
+    - Thu, 22 Sep 2016 15:34:30 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 21 Sep 2016 11:49:08 GMT
+recorded_at: Thu, 22 Sep 2016 03:34:31 GMT
