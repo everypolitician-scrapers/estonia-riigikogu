@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 22 Sep 2016 03:47:18 GMT
+    - Fri, 23 Sep 2016 09:18:46 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 23-Sep-2016 03:47:19 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 23-Sep-2016 03:47:19 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 24-Sep-2016 09:18:46 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 24-Sep-2016 09:18:47 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e796fa83-54c6-4aa2-a05a-166f331508fa/Ken-Marti-Vaher/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Thu, 22 Sep 2016 15:47:18 GMT
+    - Fri, 23 Sep 2016 21:18:46 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 22 Sep 2016 03:47:19 GMT
+recorded_at: Fri, 23 Sep 2016 09:18:47 GMT
