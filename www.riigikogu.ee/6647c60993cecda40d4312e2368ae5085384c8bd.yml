@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 23 Sep 2016 08:57:36 GMT
+    - Sat, 24 Sep 2016 04:22:04 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 24-Sep-2016 08:57:36 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 24-Sep-2016 08:57:36 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 25-Sep-2016 04:22:05 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 25-Sep-2016 04:22:05 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e3daca91-fbe7-4157-a72c-e87cda4565e1/Rait-Maruste/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 23 Sep 2016 20:57:36 GMT
+    - Sat, 24 Sep 2016 16:22:04 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 23 Sep 2016 08:57:36 GMT
+recorded_at: Sat, 24 Sep 2016 04:22:05 GMT
