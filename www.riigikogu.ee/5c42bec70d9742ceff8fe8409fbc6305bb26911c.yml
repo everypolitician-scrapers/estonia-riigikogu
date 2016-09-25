@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 24 Sep 2016 04:41:10 GMT
+    - Sun, 25 Sep 2016 20:07:27 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 25-Sep-2016 04:41:10 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 25-Sep-2016 04:41:11 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 26-Sep-2016 20:07:27 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 26-Sep-2016 20:07:27 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ec4c481a-8727-490a-b90e-cbefeac9564e/Marika-Tuus-Laul/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 24 Sep 2016 16:41:10 GMT
+    - Mon, 26 Sep 2016 08:07:27 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 24 Sep 2016 04:41:11 GMT
+recorded_at: Sun, 25 Sep 2016 20:07:28 GMT
