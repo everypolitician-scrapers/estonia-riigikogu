@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 24 Sep 2016 04:42:59 GMT
+    - Sun, 25 Sep 2016 20:09:30 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 25-Sep-2016 04:42:59 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 25-Sep-2016 04:43:00 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 26-Sep-2016 20:09:31 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 26-Sep-2016 20:09:31 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e0767645-54aa-4084-9dd3-ed196172dabb/Vladimir-Velman/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 24 Sep 2016 16:42:59 GMT
+    - Mon, 26 Sep 2016 08:09:30 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 24 Sep 2016 04:43:00 GMT
+recorded_at: Sun, 25 Sep 2016 20:09:31 GMT
