@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Mon, 26 Sep 2016 18:21:21 GMT
+    - Tue, 27 Sep 2016 20:50:04 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Tue, 27-Sep-2016 18:21:21 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 27-Sep-2016 18:21:21 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 28-Sep-2016 20:50:05 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 28-Sep-2016 20:50:05 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/764a05b8-221d-4b65-b87b-a9b1f8b569fa/J%C3%BCri-Adams/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 27 Sep 2016 06:21:21 GMT
+    - Wed, 28 Sep 2016 08:50:04 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 26 Sep 2016 18:21:21 GMT
+recorded_at: Tue, 27 Sep 2016 20:50:05 GMT
