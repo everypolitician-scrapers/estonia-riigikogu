@@ -5,7 +5,7 @@ require 'scraperwiki'
 require 'nokogiri'
 require 'open-uri'
 require 'colorize'
-require 'scraped_page_archive/open-uri'
+# require 'scraped_page_archive/open-uri'
 
 require 'pry'
 require 'open-uri/cached'
@@ -147,8 +147,11 @@ class Riigikogu
   end
 end
 
-liikmed = Riigikogu::Liikmed.new('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/').as_data
+liikmed = Riigikogu::Liikmed.new('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/').to_h
+p liikmed
 liikmed[:members].each do |member|
-  data = Riigikogu::Saadik.new(member[:url]).as_data
-  ScraperWiki.save_sqlite([:id], data)
+
+  data = Riigikogu::Saadik.new(member[:url]).to_h
+  # ScraperWiki.save_sqlite([:id], data)
+  p data
 end
