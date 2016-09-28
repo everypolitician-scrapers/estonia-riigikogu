@@ -17,6 +17,30 @@ class String
   end
 end
 
+module FieldSerializer
+  def self.included(klass)
+    klass.extend ClassMethods
+  end
+
+  module ClassMethods
+    def fields
+      @fields ||= {}
+    end
+
+    def field(name, &block)
+      fields[name] = block
+    end
+  end
+
+  def to_h
+    self.class.fields.map { |name, block|
+      v = instance_eval(&block) rescue nil
+      [name, v]
+    }.to_h
+  end
+end
+
+
 class EPolidata
 
   class Page
@@ -61,10 +85,9 @@ end
 class Riigikogu
 
   class Liikmed < EPolidata::Page
+    include FieldSerializer
 
-    protected
-
-    def members
+    field :members do
       noko.css('ul.profile-list li.item').map do |mp|
         {
           name:  mp.css('h3').text.tidy,
@@ -77,42 +100,41 @@ class Riigikogu
   end
 
   class Saadik < EPolidata::Page
+    include FieldSerializer
 
-    protected
-
-    def id
+    field :id do
       url.split('/')[7]
     end
 
-    def name
+    field :name do
       at_css('.page-header h1')
     end
 
-    def faction
+    field :faction do
       at_css('.content a[href*="/fraktsioonid/"]')
     end
 
-    def image
+    field :image do
       absolute_link(at_css('.profile-photo img/@src'))
     end
 
-    def phone
+    field :phone do
       at_xpath('//span[contains(@class,"icon-tel")]/following-sibling::text()')
     end
 
-    def email
+    field :email do
       at_xpath('//span[contains(@class,"icon-mail")]/following-sibling::text()')
     end
 
-    def facebook
+    field :facebook do
       at_css('a.facebook/@href', scope: social_media)
     end
 
-    def twitter
+    field :twitter do
       at_css('a.twitter/@href', scope: social_media)
     end
 
-    def source
+    field :source do
       url
     end
 
