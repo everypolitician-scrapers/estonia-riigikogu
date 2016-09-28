@@ -1,23 +1,31 @@
-
 ```ruby
 class PersonPage
   include FieldSerializer
-  include HTMLMethods
 
   field :name do
-    html.css('.name')
+    noko.css('.name')
   end
 
   field :start_date do
-    html.xpath("//span[@class='start-membership']")
+    noko.xpath("//span[@class='start-membership']")
   end
+
+  # field :end_date, :noko, css: '.end-date'
+
+  scope :social_media do
+    noko.xpath('//h2[.="Sotsiaalmeedia"]/following-sibling::div[@class="group"]')
+  end
+
+  field :twitter do
+    social_media.css('a.twitter/@href')
+  end
+
 end
 
-person_page = PersonPage.new(html: '<p class="name">Malcolm</p>')
+person_page = PersonPage.new(noko: Nokogiri::HTML('<p class="name">Malcolm</p>'))
 
-person_page.to_h 
+person_page.to_h
 # => { name: 'Malcolm', start_date: '2016-09-28' }
-
 ```
 
 ```ruby
@@ -36,6 +44,4 @@ end
 area = AreaPage.new(item: Wikisnakker::Item.find('Q42'))
 area.to_h
 # => { name: 'Malcolm', start_date: '2016-09-28' }
-
-
 ```
