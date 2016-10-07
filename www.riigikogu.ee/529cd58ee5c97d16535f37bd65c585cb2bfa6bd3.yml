@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 06 Oct 2016 04:05:04 GMT
+    - Fri, 07 Oct 2016 08:43:26 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 07-Oct-2016 04:05:04 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 07-Oct-2016 04:05:05 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 08-Oct-2016 08:43:26 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 08-Oct-2016 08:43:27 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/31eee189-0019-469f-8469-7da564bf1af9/Kalle-Laanet/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Thu, 06 Oct 2016 16:05:04 GMT
+    - Fri, 07 Oct 2016 20:43:26 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 06 Oct 2016 04:05:05 GMT
+recorded_at: Fri, 07 Oct 2016 08:43:27 GMT
