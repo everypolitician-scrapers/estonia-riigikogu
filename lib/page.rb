@@ -34,7 +34,7 @@ class Riigikogu
 
     def _at_selector(h)
       start_node = h[:scope] || noko
-      start_node.send(h[:selector_type], h[:selector]).text.tidy
+      start_node.send(h[:selector_type], h[:selector]).map(&:text).map(&:tidy).join(';')
     end
 
     def absolute_link(rel)
