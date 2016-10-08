@@ -18,24 +18,22 @@ class String
 end
 
 class EPolidata
+  require 'field_serializer'
 
   class Page
-
-    attr_accessor :url
+    include FieldSerializer
 
     def initialize(url)
       @url = url
     end
 
-    def as_data
-      @md ||= Hash[ protected_methods.map { |m| [m, send(m)] } ]
+    def noko
+      @noko ||= Nokogiri::HTML(open(url).read)
     end
 
     private
 
-    def noko
-      @noko ||= Nokogiri::HTML(open(url).read)
-    end
+    attr_accessor :url
 
     def at_css(selector, h={})
       _at_selector(h.merge(selector_type: 'css', selector: selector))
@@ -50,9 +48,9 @@ class EPolidata
       start_node.send(h[:selector_type], h[:selector]).text.tidy
     end
 
-    def absolute_link(link)
-      return if link.to_s.empty?
-      URI.join(url, URI.escape(URI.unescape(link))).to_s
+    def absolute_link(rel)
+      return if rel.to_s.empty?
+      URI.join(url, URI.encode(URI.decode(rel)))
     end
   end
 
@@ -61,10 +59,7 @@ end
 class Riigikogu
 
   class Liikmed < EPolidata::Page
-
-    protected
-
-    def members
+    field :members do
       noko.css('ul.profile-list li.item').map do |mp|
         {
           name:  mp.css('h3').text.tidy,
@@ -73,46 +68,42 @@ class Riigikogu
         }
       end
     end
-
   end
 
   class Saadik < EPolidata::Page
-
-    protected
-
-    def id
+    field :id do
       url.split('/')[7]
     end
 
-    def name
+    field :name do
       at_css('.page-header h1')
     end
 
-    def faction
+    field :faction do
       at_css('.content a[href*="/fraktsioonid/"]')
     end
 
-    def image
-      absolute_link(at_css('.profile-photo img/@src'))
+    field :image do
+      absolute_link(at_css('.profile-photo img/@src')).to_s
     end
 
-    def phone
+    field :phone do
       at_xpath('//span[contains(@class,"icon-tel")]/following-sibling::text()')
     end
 
-    def email
+    field :email do
       at_xpath('//span[contains(@class,"icon-mail")]/following-sibling::text()')
     end
 
-    def facebook
+    field :facebook do
       at_css('a.facebook/@href', scope: social_media)
     end
 
-    def twitter
+    field :twitter do
       at_css('a.twitter/@href', scope: social_media)
     end
 
-    def source
+    field :source do
       url
     end
 
@@ -125,8 +116,8 @@ class Riigikogu
   end
 end
 
-liikmed = Riigikogu::Liikmed.new('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/').as_data
+liikmed = Riigikogu::Liikmed.new('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/').to_h
 liikmed[:members].each do |member|
-  data = Riigikogu::Saadik.new(member[:url]).as_data
+  data = Riigikogu::Saadik.new(member[:url]).to_h
   ScraperWiki.save_sqlite([:id], data)
 end
