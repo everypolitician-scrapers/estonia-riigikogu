@@ -15,6 +15,10 @@ class Riigikogu
       at_css('.content a[href*="/fraktsioonid/"]')
     end
 
+    field :committees do
+      at_css('.content a[href*="/komisjonid"]')
+    end
+
     field :image do
       absolute_link(at_css('.profile-photo img/@src')).to_s
     end
