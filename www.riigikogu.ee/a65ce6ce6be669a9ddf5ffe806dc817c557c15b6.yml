@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -27,7 +27,7 @@ response:
     - _icl_current_language=et; expires=Sat, 08-Oct-2016 09:07:17 GMT; path=/
     - _icl_current_language=et; expires=Sat, 08-Oct-2016 09:07:18 GMT; path=/
     Link:
-    - <http://www.riigikogu.ee/?p=515>; rel=shortlink
+    - "<http://www.riigikogu.ee/?p=515>; rel=shortlink"
     - <http://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     Cache-Control:
     - max-age=43200
@@ -38,7 +38,7 @@ response:
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
-    - '*'
+    - "*"
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
