@@ -18,31 +18,31 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 14 Oct 2016 13:09:34 GMT
+    - Sat, 15 Oct 2016 14:40:23 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 15-Oct-2016 13:09:34 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 15-Oct-2016 13:09:35 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:40:23 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:40:23 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/58be6531-1f4b-4b0b-9c21-92566a40ae8b/Marko-Mihkelson/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 15 Oct 2016 01:09:34 GMT
+    - Sun, 16 Oct 2016 02:40:23 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
     - "*"
-    Transfer-Encoding:
-    - chunked
     Content-Type:
     - text/html; charset=UTF-8
+    Content-Length:
+    - '0'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 14 Oct 2016 13:09:35 GMT
+recorded_at: Sat, 15 Oct 2016 14:40:23 GMT
