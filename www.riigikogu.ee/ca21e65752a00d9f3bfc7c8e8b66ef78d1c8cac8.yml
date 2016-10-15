@@ -18,31 +18,31 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 14 Oct 2016 13:21:57 GMT
+    - Sat, 15 Oct 2016 14:52:35 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 15-Oct-2016 13:21:57 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 15-Oct-2016 13:21:57 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:52:36 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:52:36 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/8f01f37d-be79-47d2-b818-c51878a00628/Rein-Ratas/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 15 Oct 2016 01:21:57 GMT
+    - Sun, 16 Oct 2016 02:52:35 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
     - "*"
-    Transfer-Encoding:
-    - chunked
     Content-Type:
     - text/html; charset=UTF-8
+    Content-Length:
+    - '0'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 14 Oct 2016 13:21:57 GMT
+recorded_at: Sat, 15 Oct 2016 14:52:36 GMT
