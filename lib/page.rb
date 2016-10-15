@@ -17,6 +17,7 @@ class Riigikogu
     end
 
     def noko
+      warn "Loading #{url}"
       @noko ||= Nokogiri::HTML(open(url).read)
     end
 
