@@ -18,31 +18,31 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 14 Oct 2016 11:56:35 GMT
+    - Sat, 15 Oct 2016 14:32:01 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 15-Oct-2016 11:56:36 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 15-Oct-2016 11:56:36 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:32:01 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:32:02 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/b2226516-4cd4-4471-b93b-696c40b7a9e2/Eerik-Niiles-Kross/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 14 Oct 2016 23:56:35 GMT
+    - Sun, 16 Oct 2016 02:32:01 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
     - "*"
-    Transfer-Encoding:
-    - chunked
     Content-Type:
     - text/html; charset=UTF-8
+    Content-Length:
+    - '0'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 14 Oct 2016 11:56:36 GMT
+recorded_at: Sat, 15 Oct 2016 14:32:02 GMT
