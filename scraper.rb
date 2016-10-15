@@ -14,8 +14,8 @@ require 'scraped_page_archive/open-uri'
 # OpenURI::Cache.cache_path = '.cache'
 
 liikmed = Riigikogu::Members.new('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/').to_h
-warn "Found #{liikmed[:members].count} members"
-liikmed[:members].each do |member|
+warn liikmed
+liikmed[:members].to_a.each do |member|
   data = Riigikogu::Member.new(member[:url]).to_h
   ScraperWiki.save_sqlite([:id], data)
 end
