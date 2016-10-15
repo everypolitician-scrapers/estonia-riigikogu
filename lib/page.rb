@@ -26,8 +26,6 @@ class Riigikogu
 
     def html
       @html ||= open(url).read
-      warn "Loading #{url} = #{@html}"
-      @html
     end
 
     def at_css(selector, h = {})
