@@ -17,13 +17,18 @@ class Riigikogu
     end
 
     def noko
-      warn "Loading #{url}"
-      @noko ||= Nokogiri::HTML(open(url).read)
+      @noko ||= Nokogiri::HTML(html)
     end
 
     private
 
     attr_accessor :url
+
+    def html
+      @html ||= open(url).read
+      warn "Loading #{url} = #{@html}"
+      @html
+    end
 
     def at_css(selector, h = {})
       _at_selector(h.merge(selector_type: 'css', selector: selector))
