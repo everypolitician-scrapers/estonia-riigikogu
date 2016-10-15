@@ -18,31 +18,31 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 14 Oct 2016 11:52:12 GMT
+    - Sat, 15 Oct 2016 14:28:56 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 15-Oct-2016 11:52:13 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 15-Oct-2016 11:52:13 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:28:57 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:28:57 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/906f1a0a-0000-4a96-866c-b30f2b6adc49/Toomas-Kivim%C3%A4gi/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 14 Oct 2016 23:52:12 GMT
+    - Sun, 16 Oct 2016 02:28:56 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
     - 1; mode=block
     Access-Control-Allow-Origin:
     - "*"
-    Transfer-Encoding:
-    - chunked
     Content-Type:
     - text/html; charset=UTF-8
+    Content-Length:
+    - '0'
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 14 Oct 2016 11:52:13 GMT
+recorded_at: Sat, 15 Oct 2016 14:28:57 GMT
