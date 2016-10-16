@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 15 Oct 2016 14:59:21 GMT
+    - Sun, 16 Oct 2016 20:23:47 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:59:21 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 16-Oct-2016 14:59:21 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 17-Oct-2016 20:23:47 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 17-Oct-2016 20:23:48 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/a137f382-44af-44b6-8ce7-1bfe7cc23007/Imre-Soo%C3%A4%C3%A4r/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 16 Oct 2016 02:59:21 GMT
+    - Mon, 17 Oct 2016 08:23:47 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 15 Oct 2016 14:59:22 GMT
+recorded_at: Sun, 16 Oct 2016 20:23:48 GMT
