@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 18 Oct 2016 05:45:34 GMT
+    - Wed, 19 Oct 2016 09:01:08 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 19-Oct-2016 05:45:34 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 19-Oct-2016 05:45:35 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 20-Oct-2016 09:01:08 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 20-Oct-2016 09:01:09 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/d5f3dddb-d809-448a-a94f-adbf208e408a/Andres-Metsoja/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 18 Oct 2016 17:45:34 GMT
+    - Wed, 19 Oct 2016 21:01:08 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 18 Oct 2016 05:45:35 GMT
+recorded_at: Wed, 19 Oct 2016 09:01:09 GMT
