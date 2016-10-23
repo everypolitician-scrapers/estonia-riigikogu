@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 22 Oct 2016 19:20:02 GMT
+    - Sun, 23 Oct 2016 03:19:36 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 23-Oct-2016 19:20:03 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 23-Oct-2016 19:20:03 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 24-Oct-2016 03:19:36 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 24-Oct-2016 03:19:37 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/49d964ea-2e35-4075-913e-18587fcb64cc/Meelis-M%C3%A4lberg/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 23 Oct 2016 07:20:02 GMT
+    - Sun, 23 Oct 2016 15:19:36 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 22 Oct 2016 19:20:03 GMT
+recorded_at: Sun, 23 Oct 2016 03:19:37 GMT
