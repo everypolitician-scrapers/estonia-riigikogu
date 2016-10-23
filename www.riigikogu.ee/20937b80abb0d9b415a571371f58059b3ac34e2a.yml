@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 22 Oct 2016 19:02:45 GMT
+    - Sun, 23 Oct 2016 03:02:51 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 23-Oct-2016 19:02:45 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 23-Oct-2016 19:02:46 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 24-Oct-2016 03:02:51 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 24-Oct-2016 03:02:51 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/09500870-255e-416d-8eda-f80e9929adda/J%C3%BCri-Jaanson/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 23 Oct 2016 07:02:45 GMT
+    - Sun, 23 Oct 2016 15:02:51 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 22 Oct 2016 19:02:46 GMT
+recorded_at: Sun, 23 Oct 2016 03:02:52 GMT
