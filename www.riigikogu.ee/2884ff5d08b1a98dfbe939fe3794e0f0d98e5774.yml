@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 25 Oct 2016 00:06:12 GMT
+    - Wed, 26 Oct 2016 12:26:42 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 26-Oct-2016 00:06:12 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 26-Oct-2016 00:06:13 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 27-Oct-2016 12:26:43 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 27-Oct-2016 12:26:43 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/56240b7a-f393-479e-8fa4-8267be56d125/Ivari-Padar/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 25 Oct 2016 12:06:12 GMT
+    - Thu, 27 Oct 2016 00:26:42 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 25 Oct 2016 00:06:13 GMT
+recorded_at: Wed, 26 Oct 2016 12:26:43 GMT
