@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 25 Oct 2016 00:05:35 GMT
+    - Wed, 26 Oct 2016 12:26:17 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 26-Oct-2016 00:05:35 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 26-Oct-2016 00:05:35 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 27-Oct-2016 12:26:18 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 27-Oct-2016 12:26:18 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/4dbb83c0-9dbe-4aa7-9d89-29cf398da20d/Anneli-Ott/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 25 Oct 2016 12:05:35 GMT
+    - Thu, 27 Oct 2016 00:26:17 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 25 Oct 2016 00:05:35 GMT
+recorded_at: Wed, 26 Oct 2016 12:26:18 GMT
