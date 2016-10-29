@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 29 Oct 2016 00:13:17 GMT
+    - Sat, 29 Oct 2016 01:29:38 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 30-Oct-2016 00:13:17 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 30-Oct-2016 00:13:17 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 30-Oct-2016 01:29:38 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 30-Oct-2016 01:29:39 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ae55c88e-c202-4290-832b-b4e2fb5086ed/Johannes-Kert/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 29 Oct 2016 12:13:17 GMT
+    - Sat, 29 Oct 2016 13:29:38 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 29 Oct 2016 00:13:17 GMT
+recorded_at: Sat, 29 Oct 2016 01:29:39 GMT
