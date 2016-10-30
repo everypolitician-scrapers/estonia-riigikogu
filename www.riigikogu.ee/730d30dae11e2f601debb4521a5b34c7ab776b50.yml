@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 29 Oct 2016 01:24:21 GMT
+    - Sun, 30 Oct 2016 04:48:15 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 30-Oct-2016 01:24:21 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 30-Oct-2016 01:24:21 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 31-Oct-2016 04:48:16 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 31-Oct-2016 04:48:16 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/98008392-64a2-4429-8a41-fb051823e402/Martin-Helme/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 29 Oct 2016 13:24:21 GMT
+    - Sun, 30 Oct 2016 16:48:15 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 29 Oct 2016 01:24:22 GMT
+recorded_at: Sun, 30 Oct 2016 04:48:16 GMT
