@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 29 Oct 2016 01:56:03 GMT
+    - Sun, 30 Oct 2016 05:24:06 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 30-Oct-2016 01:56:03 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 30-Oct-2016 01:56:04 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 31-Oct-2016 05:24:06 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 31-Oct-2016 05:24:07 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/529e5322-1170-4926-a07e-6ed369534503/Mihhail-Stalnuhhin/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 29 Oct 2016 13:56:03 GMT
+    - Sun, 30 Oct 2016 17:24:06 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 29 Oct 2016 01:56:04 GMT
+recorded_at: Sun, 30 Oct 2016 05:24:07 GMT
