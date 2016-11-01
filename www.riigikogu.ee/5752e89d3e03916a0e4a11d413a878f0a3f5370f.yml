@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Mon, 31 Oct 2016 15:43:11 GMT
+    - Tue, 01 Nov 2016 02:39:27 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Tue, 01-Nov-2016 15:43:11 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 01-Nov-2016 15:43:12 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 02-Nov-2016 02:39:27 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 02-Nov-2016 02:39:27 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e0fc4e6d-c527-4fec-8854-ddceb43cffc3/Marianne-Mikko/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 01 Nov 2016 03:43:11 GMT
+    - Tue, 01 Nov 2016 14:39:27 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 31 Oct 2016 15:43:12 GMT
+recorded_at: Tue, 01 Nov 2016 02:39:28 GMT
