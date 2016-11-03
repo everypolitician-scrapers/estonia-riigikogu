@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 02 Nov 2016 10:21:59 GMT
+    - Thu, 03 Nov 2016 12:50:50 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 03-Nov-2016 10:21:59 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 03-Nov-2016 10:21:59 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 04-Nov-2016 12:50:51 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 04-Nov-2016 12:50:51 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/2dcb35ed-acbc-4bcf-9e9d-9da681842d6d/Aivar-Kokk/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Wed, 02 Nov 2016 22:21:59 GMT
+    - Fri, 04 Nov 2016 00:50:50 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 02 Nov 2016 10:22:00 GMT
+recorded_at: Thu, 03 Nov 2016 12:50:51 GMT
