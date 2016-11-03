@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 03 Nov 2016 12:42:07 GMT
+    - Thu, 03 Nov 2016 23:20:17 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 04-Nov-2016 12:42:08 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 04-Nov-2016 12:42:08 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 04-Nov-2016 23:20:18 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 04-Nov-2016 23:20:18 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/f8a770b2-916c-4172-84b3-005ba9906a18/Peeter-Ernits/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 04 Nov 2016 00:42:07 GMT
+    - Fri, 04 Nov 2016 11:20:17 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 03 Nov 2016 12:42:08 GMT
+recorded_at: Thu, 03 Nov 2016 23:20:18 GMT
