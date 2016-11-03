@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 03 Nov 2016 12:44:29 GMT
+    - Thu, 03 Nov 2016 23:22:41 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 04-Nov-2016 12:44:29 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 04-Nov-2016 12:44:29 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 04-Nov-2016 23:22:41 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 04-Nov-2016 23:22:42 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/4b96f3e5-af5e-41ce-86c9-3fdee3ce51da/Mart-Helme/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 04 Nov 2016 00:44:29 GMT
+    - Fri, 04 Nov 2016 11:22:41 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 03 Nov 2016 12:44:30 GMT
+recorded_at: Thu, 03 Nov 2016 23:22:42 GMT
