@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Wed, 02 Nov 2016 10:12:18 GMT
+    - Thu, 03 Nov 2016 12:41:44 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 03-Nov-2016 10:12:19 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 03-Nov-2016 10:12:19 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 04-Nov-2016 12:41:44 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 04-Nov-2016 12:41:45 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/07132cc4-5afc-4edb-9537-7c721ec39b2d/Enn-Eesmaa/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Wed, 02 Nov 2016 22:12:18 GMT
+    - Fri, 04 Nov 2016 00:41:44 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Wed, 02 Nov 2016 10:12:19 GMT
+recorded_at: Thu, 03 Nov 2016 12:41:45 GMT
