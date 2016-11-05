@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 03 Nov 2016 23:34:04 GMT
+    - Sat, 05 Nov 2016 12:46:25 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 04-Nov-2016 23:34:05 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 04-Nov-2016 23:34:05 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 06-Nov-2016 12:46:25 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 06-Nov-2016 12:46:25 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/46fa9a7c-7055-444f-8c55-ea640d1d95d6/Kalvi-K%C3%B5va/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 04 Nov 2016 11:34:04 GMT
+    - Sun, 06 Nov 2016 00:46:25 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 03 Nov 2016 23:34:05 GMT
+recorded_at: Sat, 05 Nov 2016 12:46:26 GMT
