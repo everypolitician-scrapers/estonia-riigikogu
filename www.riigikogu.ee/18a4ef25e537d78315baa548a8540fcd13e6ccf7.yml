@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 05 Nov 2016 12:38:18 GMT
+    - Sun, 06 Nov 2016 05:01:37 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 06-Nov-2016 12:38:18 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 06-Nov-2016 12:38:19 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 07-Nov-2016 05:01:37 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 07-Nov-2016 05:01:37 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/6e0b6122-249d-48f1-9582-9df8b2bb236d/Toomas-J%C3%BCrgenstein/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 06 Nov 2016 00:38:18 GMT
+    - Sun, 06 Nov 2016 17:01:37 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 05 Nov 2016 12:38:19 GMT
+recorded_at: Sun, 06 Nov 2016 05:01:38 GMT
