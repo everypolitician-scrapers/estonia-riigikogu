@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 05 Nov 2016 12:58:56 GMT
+    - Sun, 06 Nov 2016 05:23:17 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 06-Nov-2016 12:58:56 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 06-Nov-2016 12:58:57 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 07-Nov-2016 05:23:17 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 07-Nov-2016 05:23:17 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/cabaad00-b521-4b45-aed2-67946e6baeb9/Mart-Nutt/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 06 Nov 2016 00:58:56 GMT
+    - Sun, 06 Nov 2016 17:23:17 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 05 Nov 2016 12:58:57 GMT
+recorded_at: Sun, 06 Nov 2016 05:23:18 GMT
