@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 10 Nov 2016 01:18:46 GMT
+    - Fri, 11 Nov 2016 00:22:39 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 11-Nov-2016 01:18:46 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 11-Nov-2016 01:18:46 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 12-Nov-2016 00:22:40 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 12-Nov-2016 00:22:40 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/6eafafda-f117-44e5-b14b-1956d566e233/Dmitri-Dmitrijev/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Thu, 10 Nov 2016 13:18:46 GMT
+    - Fri, 11 Nov 2016 12:22:39 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 10 Nov 2016 01:18:47 GMT
+recorded_at: Fri, 11 Nov 2016 00:22:40 GMT
