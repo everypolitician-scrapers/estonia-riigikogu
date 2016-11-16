@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 11 Nov 2016 21:54:00 GMT
+    - Wed, 16 Nov 2016 21:48:52 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 12-Nov-2016 21:54:00 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 12-Nov-2016 21:54:00 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 17-Nov-2016 21:48:52 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 17-Nov-2016 21:48:53 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/c91bc287-d95b-4d95-aded-f7a142c1e599/Urve-Palo/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 12 Nov 2016 09:54:00 GMT
+    - Thu, 17 Nov 2016 09:48:52 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 11 Nov 2016 21:54:01 GMT
+recorded_at: Wed, 16 Nov 2016 21:48:53 GMT
