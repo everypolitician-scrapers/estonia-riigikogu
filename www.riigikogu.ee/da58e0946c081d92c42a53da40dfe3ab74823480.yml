@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 11 Nov 2016 21:31:26 GMT
+    - Wed, 16 Nov 2016 21:21:01 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 12-Nov-2016 21:31:27 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 12-Nov-2016 21:31:27 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 17-Nov-2016 21:21:01 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 17-Nov-2016 21:21:01 GMT; path=/
     Location:
     - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ccf992ae-380e-46a9-97e7-8fa4da648262/Andres-Herkel/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 12 Nov 2016 09:31:26 GMT
+    - Thu, 17 Nov 2016 09:21:01 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 11 Nov 2016 21:31:27 GMT
+recorded_at: Wed, 16 Nov 2016 21:21:02 GMT
