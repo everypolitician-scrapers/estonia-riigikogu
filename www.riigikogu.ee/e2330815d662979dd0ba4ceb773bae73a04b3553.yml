@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 16 Nov 2016 22:01:31 GMT
+    - Wed, 16 Nov 2016 23:55:57 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
@@ -28,7 +28,7 @@ response:
     Last-Modified:
     - Wed, 16 Nov 2016 16:16:13 GMT
     Expires:
-    - Thu, 17 Nov 2016 10:01:31 GMT
+    - Thu, 17 Nov 2016 11:55:57 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 16 Nov 2016 22:01:31 GMT
+recorded_at: Wed, 16 Nov 2016 23:55:58 GMT
