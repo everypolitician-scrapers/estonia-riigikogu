@@ -18,21 +18,21 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 16 Nov 2016 23:10:38 GMT
+    - Thu, 17 Nov 2016 06:56:40 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie,Accept-Encoding
     Set-Cookie:
-    - _icl_current_language=et; expires=Thu, 17-Nov-2016 23:10:39 GMT; path=/
-    - _icl_current_language=et; expires=Thu, 17-Nov-2016 23:10:39 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 18-Nov-2016 06:56:40 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 18-Nov-2016 06:56:40 GMT; path=/
     Link:
     - "<http://www.riigikogu.ee/?p=515>; rel=shortlink"
     - <http://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     Cache-Control:
     - max-age=43200
     Expires:
-    - Thu, 17 Nov 2016 11:10:38 GMT
+    - Thu, 17 Nov 2016 18:56:40 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,8 +42,8 @@ response:
     Content-Type:
     - text/html; charset=UTF-8
     Content-Length:
-    - '15780'
+    - '15746'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 16 Nov 2016 23:10:41 GMT
+recorded_at: Thu, 17 Nov 2016 06:56:43 GMT
