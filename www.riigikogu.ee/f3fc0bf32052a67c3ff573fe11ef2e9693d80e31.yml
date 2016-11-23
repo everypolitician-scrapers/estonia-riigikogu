@@ -1,0 +1,48 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/587e9a85-08b6-4045-b49a-7a8d6e3dc940/Eevi-Paasm%C3%A4e
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Date:
+    - Wed, 23 Nov 2016 21:12:48 GMT
+    Server:
+    - Mongrel2/1.9.1
+    Vary:
+    - Cookie
+    Set-Cookie:
+    - _icl_current_language=et; expires=Thu, 24-Nov-2016 21:12:48 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 24-Nov-2016 21:12:48 GMT; path=/
+    Location:
+    - http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/587e9a85-08b6-4045-b49a-7a8d6e3dc940/Eevi-Paasm%C3%A4e/
+    Cache-Control:
+    - max-age=43200
+    Expires:
+    - Thu, 24 Nov 2016 09:12:48 GMT
+    X-Frame-Options:
+    - SAMEORIGIN
+    X-Xss-Protecion:
+    - 1; mode=block
+    Access-Control-Allow-Origin:
+    - "*"
+    Content-Type:
+    - text/html; charset=UTF-8
+    Content-Length:
+    - '0'
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Wed, 23 Nov 2016 21:12:48 GMT
