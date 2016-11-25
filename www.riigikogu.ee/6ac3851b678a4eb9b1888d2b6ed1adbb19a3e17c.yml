@@ -1,0 +1,49 @@
+---
+request:
+  method: get
+  uri: http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/c0c7bea2-4c5e-4295-9c0f-dca52d602098/J%C3%BCrgen-Ligi/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Fri, 25 Nov 2016 12:00:19 GMT
+    Server:
+    - Mongrel2/1.9.1
+    Vary:
+    - Cookie,Accept-Encoding
+    Set-Cookie:
+    - _icl_current_language=et; expires=Sat, 26-Nov-2016 12:00:20 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 26-Nov-2016 12:00:20 GMT; path=/
+    Link:
+    - "<http://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <http://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
+    Cache-Control:
+    - max-age=43200
+    Expires:
+    - Sat, 26 Nov 2016 00:00:19 GMT
+    X-Frame-Options:
+    - SAMEORIGIN
+    X-Xss-Protecion:
+    - 1; mode=block
+    Access-Control-Allow-Origin:
+    - "*"
+    Content-Type:
+    - text/html; charset=UTF-8
+    Content-Length:
+    - '11567'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Fri, 25 Nov 2016 12:00:23 GMT
