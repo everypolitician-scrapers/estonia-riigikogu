@@ -1,0 +1,48 @@
+---
+request:
+  method: get
+  uri: https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/b0eb11ef-75b9-4427-b8d0-20d38af2903a/Raivo-P%C3%B5ldaru
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 301
+    message: Moved Permanently
+  headers:
+    Date:
+    - Thu, 01 Dec 2016 23:51:12 GMT
+    Server:
+    - Mongrel2/1.9.1
+    Vary:
+    - Cookie,Accept-Encoding
+    Set-Cookie:
+    - _icl_current_language=et; expires=Fri, 02-Dec-2016 23:51:12 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 02-Dec-2016 23:51:13 GMT; path=/
+    Location:
+    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/b0eb11ef-75b9-4427-b8d0-20d38af2903a/Raivo-P%C3%B5ldaru/
+    Cache-Control:
+    - max-age=43200
+    Expires:
+    - Fri, 02 Dec 2016 11:51:12 GMT
+    X-Frame-Options:
+    - SAMEORIGIN
+    X-Xss-Protecion:
+    - 1; mode=block
+    Access-Control-Allow-Origin:
+    - "*"
+    Content-Type:
+    - text/html; charset=UTF-8
+    Content-Length:
+    - '25'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 01 Dec 2016 23:51:13 GMT
