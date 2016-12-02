@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 01 Dec 2016 23:28:37 GMT
+    - Fri, 02 Dec 2016 20:52:23 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie,Accept-Encoding
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 02-Dec-2016 23:28:37 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 02-Dec-2016 23:28:38 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 03-Dec-2016 20:52:24 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 03-Dec-2016 20:52:24 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e6416c11-b0c5-459a-96f9-c9549bbaaa81/Siret-Kotka/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 02 Dec 2016 11:28:37 GMT
+    - Sat, 03 Dec 2016 08:52:23 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 01 Dec 2016 23:28:38 GMT
+recorded_at: Fri, 02 Dec 2016 20:52:24 GMT
