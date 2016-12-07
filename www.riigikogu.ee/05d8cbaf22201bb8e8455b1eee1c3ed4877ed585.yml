@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 06 Dec 2016 08:42:33 GMT
+    - Wed, 07 Dec 2016 00:10:20 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie,Accept-Encoding
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 07-Dec-2016 08:42:33 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 07-Dec-2016 08:42:33 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 08-Dec-2016 00:10:20 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 08-Dec-2016 00:10:21 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/1a847bf9-89b0-40b5-ad0f-36e8d41ebe20/K%C3%BClliki-K%C3%BCbarsepp/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 06 Dec 2016 20:42:33 GMT
+    - Wed, 07 Dec 2016 12:10:20 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 06 Dec 2016 08:42:33 GMT
+recorded_at: Wed, 07 Dec 2016 00:10:21 GMT
