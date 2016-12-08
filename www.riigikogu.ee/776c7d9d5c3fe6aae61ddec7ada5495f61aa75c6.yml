@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 07 Dec 2016 02:26:24 GMT
+    - Thu, 08 Dec 2016 11:52:51 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
@@ -26,9 +26,9 @@ response:
     Cache-Control:
     - max-age=3, must-revalidate, max-age=43200
     Last-Modified:
-    - Tue, 06 Dec 2016 18:41:19 GMT
+    - Thu, 08 Dec 2016 11:30:08 GMT
     Expires:
-    - Wed, 07 Dec 2016 14:26:24 GMT
+    - Thu, 08 Dec 2016 23:52:51 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -36,10 +36,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Length:
-    - '14192'
+    - '13969'
     Content-Type:
     - text/html; charset=UTF-8
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 07 Dec 2016 02:26:24 GMT
+recorded_at: Thu, 08 Dec 2016 11:52:51 GMT
