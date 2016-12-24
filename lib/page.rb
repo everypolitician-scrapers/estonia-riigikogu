@@ -10,7 +10,6 @@ end
 
 class Riigikogu
   class Page < Scraped::HTML
-
     private
 
     def at_css(selector, h = {})
