@@ -13,7 +13,7 @@ require 'scraped_page_archive/open-uri'
 # require 'open-uri/cached'
 # OpenURI::Cache.cache_path = '.cache'
 
-url = 'http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/'
+url = 'https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/'
 page = Riigikogu::Members.new(response: Scraped::Request.new(url: url).response)
 
 warn "Found #{page.members.count} members"
