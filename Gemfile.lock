@@ -1,8 +1,11 @@
 GIT
-  remote: https://github.com/everypolitician/field_serializer.git
-  revision: 16d5d90a3095fa2552cbeeb3fb371b3f409ffd63
+  remote: https://github.com/everypolitician/scraped.git
+  revision: 0b7474c54ee395fd9bec30a64702255d093f9b31
   specs:
-    field_serializer (0.1.0)
+    scraped (0.1.0)
+      field_serializer (>= 0.3.0)
+      nokogiri
+      require_all
 
 GIT
   remote: https://github.com/everypolitician/scraped_page_archive.git
@@ -28,9 +31,9 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     ast (2.3.0)
     coderay (1.1.0)
-    colorize (0.7.7)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
+    field_serializer (0.3.0)
     git (1.3.0)
     hashdiff (0.3.1)
     httpclient (2.6.0.1)
@@ -75,13 +78,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  colorize
-  field_serializer!
   nokogiri
   open-uri-cached
   pry
   require_all
   rubocop
+  scraped!
   scraped_page_archive!
   scraperwiki!
 
