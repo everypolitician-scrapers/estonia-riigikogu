@@ -4,18 +4,20 @@
 
 require 'pry'
 require 'require_all'
+require 'scraped'
 require 'scraperwiki'
 
 require_rel 'lib'
 
 require 'scraped_page_archive/open-uri'
-
 # require 'open-uri/cached'
 # OpenURI::Cache.cache_path = '.cache'
 
-liikmed = Riigikogu::Members.new('http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/').to_h
-warn "Found #{liikmed[:members].count} members"
-liikmed[:members].to_a.each do |member|
-  data = Riigikogu::Member.new(member[:url]).to_h
+url = 'http://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/'
+page = Riigikogu::Members.new(response: Scraped::Request.new(url: url).response)
+
+warn "Found #{page.members.count} members"
+page.members.each do |member|
+  data = Riigikogu::Member.new(response: Scraped::Request.new(url: member.url).response).to_h
   ScraperWiki.save_sqlite([:id], data)
 end

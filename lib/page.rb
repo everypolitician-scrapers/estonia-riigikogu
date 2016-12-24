@@ -9,24 +9,9 @@ class String
 end
 
 class Riigikogu
-  class Page
-    include FieldSerializer
-
-    def initialize(url)
-      @url = url
-    end
-
-    def noko
-      @noko ||= Nokogiri::HTML(html)
-    end
+  class Page < Scraped::HTML
 
     private
-
-    attr_accessor :url
-
-    def html
-      @html ||= open(url).read
-    end
 
     def at_css(selector, h = {})
       _at_selector(h.merge(selector_type: 'css', selector: selector))
