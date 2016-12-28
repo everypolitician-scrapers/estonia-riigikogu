@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 27 Dec 2016 04:27:56 GMT
+    - Wed, 28 Dec 2016 20:06:42 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie,Accept-Encoding
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 28-Dec-2016 04:27:56 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 28-Dec-2016 04:27:56 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 29-Dec-2016 20:06:42 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 29-Dec-2016 20:06:42 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/9a2c28c3-c9fd-47cc-9dbb-79e94607ba86/Helmut-Hallemaa/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Tue, 27 Dec 2016 16:27:56 GMT
+    - Thu, 29 Dec 2016 08:06:42 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 27 Dec 2016 04:27:57 GMT
+recorded_at: Wed, 28 Dec 2016 20:06:43 GMT
