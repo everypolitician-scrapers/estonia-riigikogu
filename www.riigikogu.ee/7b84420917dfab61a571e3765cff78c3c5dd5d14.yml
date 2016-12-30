@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 29 Dec 2016 14:56:33 GMT
+    - Fri, 30 Dec 2016 14:32:41 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie,Accept-Encoding
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 30-Dec-2016 14:56:33 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 30-Dec-2016 14:56:33 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 31-Dec-2016 14:32:41 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 31-Dec-2016 14:32:42 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/bbbcacb7-c34f-48b7-a2ba-1680c93ff810/Viktor-Vassiljev/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 30 Dec 2016 02:56:33 GMT
+    - Sat, 31 Dec 2016 02:32:41 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 29 Dec 2016 14:56:33 GMT
+recorded_at: Fri, 30 Dec 2016 14:32:42 GMT
