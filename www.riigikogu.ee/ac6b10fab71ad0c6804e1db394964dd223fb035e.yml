@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 05 Jan 2017 12:18:19 GMT
+    - Fri, 06 Jan 2017 22:03:08 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 06-Jan-2017 12:18:20 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 06-Jan-2017 12:18:20 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 07-Jan-2017 22:03:08 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 07-Jan-2017 22:03:08 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/47201a8e-4ae7-45fa-8659-b47930d6f99c/Taavi-R%C3%B5ivas/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 06 Jan 2017 00:18:19 GMT
+    - Sat, 07 Jan 2017 10:03:08 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 05 Jan 2017 12:18:20 GMT
+recorded_at: Fri, 06 Jan 2017 22:03:09 GMT
