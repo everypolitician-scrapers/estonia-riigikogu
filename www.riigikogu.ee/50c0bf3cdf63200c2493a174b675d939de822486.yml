@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 06 Jan 2017 22:10:00 GMT
+    - Sat, 07 Jan 2017 07:52:41 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 07-Jan-2017 22:10:00 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 07-Jan-2017 22:10:00 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 08-Jan-2017 07:52:41 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 08-Jan-2017 07:52:42 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/059a2370-53f7-480c-9700-8d33d0496560/Tanel-Talve/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 07 Jan 2017 10:10:00 GMT
+    - Sat, 07 Jan 2017 19:52:41 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 06 Jan 2017 22:10:00 GMT
+recorded_at: Sat, 07 Jan 2017 07:52:42 GMT
