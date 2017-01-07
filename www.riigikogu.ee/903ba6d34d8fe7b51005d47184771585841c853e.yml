@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 06 Jan 2017 22:17:53 GMT
+    - Sat, 07 Jan 2017 08:00:25 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 07-Jan-2017 22:17:53 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 07-Jan-2017 22:17:53 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 08-Jan-2017 08:00:25 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 08-Jan-2017 08:00:26 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/d3e66a59-2b53-4d49-af9a-d0beead8b936/Toomas-Vitsut/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 07 Jan 2017 10:17:53 GMT
+    - Sat, 07 Jan 2017 20:00:25 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 06 Jan 2017 22:17:54 GMT
+recorded_at: Sat, 07 Jan 2017 08:00:26 GMT
