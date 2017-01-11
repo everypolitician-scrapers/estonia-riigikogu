@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 10 Jan 2017 19:11:48 GMT
+    - Wed, 11 Jan 2017 19:09:23 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 11-Jan-2017 19:11:48 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 11-Jan-2017 19:11:48 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 12-Jan-2017 19:09:23 GMT; path=/
+    - _icl_current_language=et; expires=Thu, 12-Jan-2017 19:09:23 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/d43974f1-4b85-4e61-b9f6-67535e1bf19f/Arno-Sild/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Wed, 11 Jan 2017 07:11:48 GMT
+    - Thu, 12 Jan 2017 07:09:23 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 10 Jan 2017 19:11:49 GMT
+recorded_at: Wed, 11 Jan 2017 19:09:23 GMT
