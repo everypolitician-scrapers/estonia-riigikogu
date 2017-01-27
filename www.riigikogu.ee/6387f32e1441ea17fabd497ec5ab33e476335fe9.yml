@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 19 Jan 2017 00:14:55 GMT
+    - Fri, 27 Jan 2017 07:13:40 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 20-Jan-2017 00:14:55 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 20-Jan-2017 00:14:55 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 28-Jan-2017 07:13:40 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 28-Jan-2017 07:13:41 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/124415a9-7640-4ec6-aa07-fc402b67af56/Anne-Sulling/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Thu, 19 Jan 2017 12:14:55 GMT
+    - Fri, 27 Jan 2017 19:13:40 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 19 Jan 2017 00:14:55 GMT
+recorded_at: Fri, 27 Jan 2017 07:13:41 GMT
