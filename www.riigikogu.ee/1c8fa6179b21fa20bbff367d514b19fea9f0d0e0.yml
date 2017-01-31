@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Fri, 27 Jan 2017 06:29:39 GMT
+    - Tue, 31 Jan 2017 08:05:41 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sat, 28-Jan-2017 06:29:39 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 28-Jan-2017 06:29:39 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 01-Feb-2017 08:05:41 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 01-Feb-2017 08:05:42 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/a12ffc5c-0809-46cb-abc4-cc99a7fa3f60/Liina-Kersna/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Fri, 27 Jan 2017 18:29:39 GMT
+    - Tue, 31 Jan 2017 20:05:41 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Fri, 27 Jan 2017 06:29:39 GMT
+recorded_at: Tue, 31 Jan 2017 08:05:42 GMT
