@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Thu, 02 Feb 2017 06:48:50 GMT
+    - Fri, 03 Feb 2017 22:20:57 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Fri, 03-Feb-2017 06:48:50 GMT; path=/
-    - _icl_current_language=et; expires=Fri, 03-Feb-2017 06:48:50 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 04-Feb-2017 22:20:58 GMT; path=/
+    - _icl_current_language=et; expires=Sat, 04-Feb-2017 22:20:58 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/db899d3d-cf2e-466f-844d-940ec162ed9a/Olga-Ivanova/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Thu, 02 Feb 2017 18:48:50 GMT
+    - Sat, 04 Feb 2017 10:20:57 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Thu, 02 Feb 2017 06:48:50 GMT
+recorded_at: Fri, 03 Feb 2017 22:20:58 GMT
