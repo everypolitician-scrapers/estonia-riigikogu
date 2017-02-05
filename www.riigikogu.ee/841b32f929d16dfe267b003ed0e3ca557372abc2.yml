@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 04 Feb 2017 12:56:38 GMT
+    - Sun, 05 Feb 2017 09:19:05 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 05-Feb-2017 12:56:38 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 05-Feb-2017 12:56:38 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 06-Feb-2017 09:19:06 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 06-Feb-2017 09:19:06 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/6532ddc5-3651-49a7-b79c-b6ebeb0a2acd/Andrei-Novikov/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 05 Feb 2017 00:56:38 GMT
+    - Sun, 05 Feb 2017 21:19:05 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 04 Feb 2017 12:56:39 GMT
+recorded_at: Sun, 05 Feb 2017 09:19:06 GMT
