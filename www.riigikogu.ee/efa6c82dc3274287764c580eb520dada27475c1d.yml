@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 11 Feb 2017 00:57:27 GMT
+    - Sun, 12 Feb 2017 14:02:28 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 12-Feb-2017 00:57:27 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 12-Feb-2017 00:57:27 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 13-Feb-2017 14:02:28 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 13-Feb-2017 14:02:29 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/0c8c32b6-5add-4058-acb8-c76822d1d06b/Lauri-Luik/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 11 Feb 2017 12:57:27 GMT
+    - Mon, 13 Feb 2017 02:02:28 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 11 Feb 2017 00:57:28 GMT
+recorded_at: Sun, 12 Feb 2017 14:02:29 GMT
