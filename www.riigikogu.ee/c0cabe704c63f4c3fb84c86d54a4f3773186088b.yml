@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sat, 25 Feb 2017 06:00:11 GMT
+    - Sun, 26 Feb 2017 03:31:39 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Sun, 26-Feb-2017 06:00:12 GMT; path=/
-    - _icl_current_language=et; expires=Sun, 26-Feb-2017 06:00:12 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 27-Feb-2017 03:31:39 GMT; path=/
+    - _icl_current_language=et; expires=Mon, 27-Feb-2017 03:31:39 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/bec6cb23-f13e-411b-9393-a3e4fb59378b/Raivo-Aeg/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sat, 25 Feb 2017 18:00:11 GMT
+    - Sun, 26 Feb 2017 15:31:39 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sat, 25 Feb 2017 06:00:12 GMT
+recorded_at: Sun, 26 Feb 2017 03:31:40 GMT
