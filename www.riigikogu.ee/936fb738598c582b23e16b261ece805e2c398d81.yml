@@ -18,20 +18,20 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Sun, 26 Feb 2017 03:44:48 GMT
+    - Mon, 27 Feb 2017 07:29:46 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
     - Cookie
     Set-Cookie:
-    - _icl_current_language=et; expires=Mon, 27-Feb-2017 03:44:49 GMT; path=/
-    - _icl_current_language=et; expires=Mon, 27-Feb-2017 03:44:49 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 28-Feb-2017 07:29:46 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 28-Feb-2017 07:29:46 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/7b7e11c8-31e8-4072-b50f-fb1dbbb7cd62/Remo-Holsmer/
     Cache-Control:
     - max-age=43200
     Expires:
-    - Sun, 26 Feb 2017 15:44:48 GMT
+    - Mon, 27 Feb 2017 19:29:46 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +45,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 26 Feb 2017 03:44:49 GMT
+recorded_at: Mon, 27 Feb 2017 07:29:47 GMT
