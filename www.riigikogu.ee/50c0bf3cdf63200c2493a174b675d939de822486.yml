@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:36:21 GMT
+    - Mon, 06 Mar 2017 21:59:24 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=r5qb9os4lrpp9dkuemq6bh4ae1; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:36:21 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:36:22 GMT; path=/
+    - PHPSESSID=po01e6ard3da5r1sp6qd39lgi3; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:59:24 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:59:24 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/059a2370-53f7-480c-9700-8d33d0496560/Tanel-Talve/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '57800'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:36:22 GMT
+recorded_at: Mon, 06 Mar 2017 21:59:27 GMT
