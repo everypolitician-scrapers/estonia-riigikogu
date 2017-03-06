@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 07:42:18 GMT
+    - Mon, 06 Mar 2017 20:56:27 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=af7far8vfvta4dhnmj5rqn6f57; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:42:19 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:42:19 GMT; path=/
+    - PHPSESSID=m48mrh760m5o3sv3mbh5alara6; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 20:56:27 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 20:56:27 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ed14baf6-eddf-46f6-bff2-21503139d1ec/Krista-Aru/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '61777'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 07:42:19 GMT
+recorded_at: Mon, 06 Mar 2017 20:56:30 GMT
