@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 07:49:48 GMT
+    - Mon, 06 Mar 2017 21:04:24 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=8h980als7prdo68flgvabjhui1; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:49:48 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:49:49 GMT; path=/
+    - PHPSESSID=q9598dqis1t1k010ssrrsamrh4; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:04:25 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:04:25 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/4b96f3e5-af5e-41ce-86c9-3fdee3ce51da/Mart-Helme/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '58390'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 07:49:49 GMT
+recorded_at: Mon, 06 Mar 2017 21:04:27 GMT
