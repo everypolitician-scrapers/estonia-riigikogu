@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:39:03 GMT
+    - Mon, 06 Mar 2017 22:03:41 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=hurd5vgta9h37a7bihcdai1pk2; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:39:03 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:39:04 GMT; path=/
+    - PHPSESSID=l9nuvgoi36ifkihd2lsjb0mdm5; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 22:03:42 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 22:03:42 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/c79c2162-d406-445a-91bb-4c4f9556efb2/Terje-Trei/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '60919'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:39:04 GMT
+recorded_at: Mon, 06 Mar 2017 22:03:45 GMT
