@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 07:51:44 GMT
+    - Mon, 06 Mar 2017 21:07:36 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=hc9cmjoh1rmn5ndnmvqmca67s3; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:51:45 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:51:45 GMT; path=/
+    - PHPSESSID=stui4962tt81j66m8ic5h11pg0; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:07:36 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:07:36 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/db899d3d-cf2e-466f-844d-940ec162ed9a/Olga-Ivanova/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '58199'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 07:51:45 GMT
+recorded_at: Mon, 06 Mar 2017 21:07:39 GMT
