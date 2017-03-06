@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:28:56 GMT
+    - Mon, 06 Mar 2017 21:51:01 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=e0cn5ccqfb56i4j2dkp1lcue72; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:28:56 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:28:57 GMT; path=/
+    - PHPSESSID=as6am7ehqsfk1ovkh2u95b9ip0; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:51:01 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:51:01 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ce3f9ed0-083c-4d0f-b45a-096610012b5f/Martin-Repinski/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '57041'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:28:57 GMT
+recorded_at: Mon, 06 Mar 2017 21:51:04 GMT
