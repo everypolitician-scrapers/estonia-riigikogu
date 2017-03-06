@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:15:59 GMT
+    - Mon, 06 Mar 2017 21:35:08 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=rvbo4rng0jkgpb0dk4jf493eh2; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:15:59 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:15:59 GMT; path=/
+    - PHPSESSID=7ltuakrh03f5lm2l85rp6vium2; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:35:09 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:35:09 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/233ac42e-573c-400e-8568-0ac3d4c107f9/Aadu-Must/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '61954'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:15:59 GMT
+recorded_at: Mon, 06 Mar 2017 21:35:12 GMT
