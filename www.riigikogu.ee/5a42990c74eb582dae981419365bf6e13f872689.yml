@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:03:36 GMT
+    - Mon, 06 Mar 2017 21:22:04 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=nrg3tk9802msdc58fn8gn9tes0; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:03:37 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:03:37 GMT; path=/
+    - PHPSESSID=4fd13ofl1fev2ss54k169n3vq5; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:22:04 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:22:05 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/08134982-2ac6-436c-ad8f-8f941ca41d3c/Viktoria-Lad%C3%B5nskaja/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '55008'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:03:37 GMT
+recorded_at: Mon, 06 Mar 2017 21:22:07 GMT
