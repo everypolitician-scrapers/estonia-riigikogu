@@ -18,20 +18,23 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 28 Feb 2017 09:09:12 GMT
+    - Mon, 06 Mar 2017 03:54:02 GMT
     Server:
     - Mongrel2/1.9.1
+    Set-Cookie:
+    - PHPSESSID=09ko5v0rf5ig5e9ns6hc9nsld3; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 03:54:03 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 03:54:03 GMT; path=/
+    Expires:
+    - Thu, 19 Nov 1981 08:52:00 GMT
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Pragma:
+    - no-cache
     Vary:
     - Cookie
-    Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 01-Mar-2017 09:09:12 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 01-Mar-2017 09:09:13 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/5c9c68d8-7b18-4f3e-901a-afc9970cdd97/Deniss-Borodit%C5%A1/
-    Cache-Control:
-    - max-age=43200
-    Expires:
-    - Tue, 28 Feb 2017 21:09:12 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +48,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 28 Feb 2017 09:09:13 GMT
+recorded_at: Mon, 06 Mar 2017 03:54:03 GMT
