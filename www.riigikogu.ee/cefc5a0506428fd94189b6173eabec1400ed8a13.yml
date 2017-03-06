@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:12:14 GMT
+    - Mon, 06 Mar 2017 21:30:25 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=kq282am7reh544pkojpg8tksg3; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:12:14 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:12:15 GMT; path=/
+    - PHPSESSID=pog1eh4jtiotaocarhleoi2e73; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:30:25 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:30:26 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/d5f3dddb-d809-448a-a94f-adbf208e408a/Andres-Metsoja/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '56884'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:12:15 GMT
+recorded_at: Mon, 06 Mar 2017 21:30:29 GMT
