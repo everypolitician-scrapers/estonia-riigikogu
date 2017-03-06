@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:13:17 GMT
+    - Mon, 06 Mar 2017 21:31:26 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=nn5j795e3stgdqbo41po73mou0; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:13:18 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:13:18 GMT; path=/
+    - PHPSESSID=h23064mn4tg4da8pb1s965p7r4; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:31:26 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:31:27 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/84bf9004-a454-44c9-8696-5337c74ff486/Kristen-Michal/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '54129'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:13:18 GMT
+recorded_at: Mon, 06 Mar 2017 21:31:30 GMT
