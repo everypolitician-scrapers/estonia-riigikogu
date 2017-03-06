@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:41:43 GMT
+    - Mon, 06 Mar 2017 22:05:56 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=om8dl1i3fgidnjacs339hf0pv4; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:41:43 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:41:44 GMT; path=/
+    - PHPSESSID=13qh10a06vjbl45me8jcura0h7; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 22:05:56 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 22:05:57 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/f8c52c41-38b3-41bd-b5fe-a3245d518404/Einar-Vallbaum/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '58520'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:41:44 GMT
+recorded_at: Mon, 06 Mar 2017 22:05:59 GMT
