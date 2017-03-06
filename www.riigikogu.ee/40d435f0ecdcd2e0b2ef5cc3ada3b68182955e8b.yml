@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 07:48:24 GMT
+    - Mon, 06 Mar 2017 21:03:14 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=mhhj8co9u2o4ekumspociv1ed5; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:48:24 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:48:24 GMT; path=/
+    - PHPSESSID=9phlkjovn5bqr4qirf6e0i7vm1; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:03:14 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:03:14 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/5ea230e2-5d34-46e1-9e4c-3966903f6b15/Monika-Haukan%C3%B5mm/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '63352'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 07:48:24 GMT
+recorded_at: Mon, 06 Mar 2017 21:03:17 GMT
