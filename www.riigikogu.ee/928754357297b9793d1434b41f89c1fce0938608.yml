@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 07:57:41 GMT
+    - Mon, 06 Mar 2017 21:16:09 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=9tkjmidlgcnq242550nok18bj2; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:57:42 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:57:42 GMT; path=/
+    - PHPSESSID=4po8oc3jgv93jvofh4sqqsfou2; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:16:09 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:16:10 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/29e61beb-0bb5-4d05-929a-1976f3642699/Valeri-Korb/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '56287'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 07:57:42 GMT
+recorded_at: Mon, 06 Mar 2017 21:16:13 GMT
