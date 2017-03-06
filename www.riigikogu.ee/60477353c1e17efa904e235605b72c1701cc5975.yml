@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:02:18 GMT
+    - Mon, 06 Mar 2017 21:20:44 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=mih7qf5qs3pafggd02cpr003t2; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:02:19 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:02:19 GMT; path=/
+    - PHPSESSID=h6qs1hbh9cpvrbldg3q8a7v3t7; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:20:45 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:20:45 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/103bdae6-c980-4bd4-8e57-e8af4df13f4b/Ants-Laaneots/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '60733'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:02:19 GMT
+recorded_at: Mon, 06 Mar 2017 21:20:48 GMT
