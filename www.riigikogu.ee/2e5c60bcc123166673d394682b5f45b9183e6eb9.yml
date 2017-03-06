@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 07:58:57 GMT
+    - Mon, 06 Mar 2017 21:17:07 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=l9tl14l2cpkjsul8rsc4vtdf17; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:58:57 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 07:58:58 GMT; path=/
+    - PHPSESSID=1b89o0n1eo3encf2kpd3q7f4c6; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:17:08 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:17:08 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/9893487a-845e-4b03-ba51-09a79fef87eb/Igor-Kravt%C5%A1enko/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '50921'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 07:58:58 GMT
+recorded_at: Mon, 06 Mar 2017 21:17:10 GMT
