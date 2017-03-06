@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:09:26 GMT
+    - Mon, 06 Mar 2017 21:28:09 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=lcr4qgrf5p4ug3sb35hf79mjr5; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:09:26 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:09:26 GMT; path=/
+    - PHPSESSID=68m4sa9b9q574qr3kff4urmk35; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:28:09 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:28:09 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/e3adcdb3-582b-411a-9132-4dc292c56bb0/Ain-Lutsepp/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '56334'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:09:27 GMT
+recorded_at: Mon, 06 Mar 2017 21:28:12 GMT
