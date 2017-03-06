@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:46:13 GMT
+    - Mon, 06 Mar 2017 22:09:08 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=bd8tsiiahqepskl7l9s7abuuf3; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:46:13 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:46:13 GMT; path=/
+    - PHPSESSID=dr4aj7ebbmq5m0gvonn7i6hrr4; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 22:09:08 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 22:09:08 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/99f436f3-ea77-4e40-9b8a-05e2cc92b8a5/Toomas-V%C3%A4inaste/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '49929'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:46:13 GMT
+recorded_at: Mon, 06 Mar 2017 22:09:11 GMT
