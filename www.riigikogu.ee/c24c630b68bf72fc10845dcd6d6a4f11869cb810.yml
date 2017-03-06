@@ -18,13 +18,13 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Mon, 06 Mar 2017 04:52:41 GMT
+    - Mon, 06 Mar 2017 08:32:19 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=fn69s2rli4tp9p2fs588987ai4; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 04:52:41 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 04:52:42 GMT; path=/
+    - PHPSESSID=8q90ir13s17lujb92fq88h8i82; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:32:19 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:32:19 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -48,4 +48,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 06 Mar 2017 04:52:42 GMT
+recorded_at: Mon, 06 Mar 2017 08:32:19 GMT
