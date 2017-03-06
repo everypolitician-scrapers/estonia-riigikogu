@@ -18,20 +18,23 @@ response:
     message: Moved Permanently
   headers:
     Date:
-    - Tue, 28 Feb 2017 09:28:38 GMT
+    - Mon, 06 Mar 2017 04:19:14 GMT
     Server:
     - Mongrel2/1.9.1
+    Set-Cookie:
+    - PHPSESSID=k22ed33540279mbtlr2p8j0as7; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 04:19:15 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 04:19:15 GMT; path=/
+    Expires:
+    - Thu, 19 Nov 1981 08:52:00 GMT
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Pragma:
+    - no-cache
     Vary:
     - Cookie
-    Set-Cookie:
-    - _icl_current_language=et; expires=Wed, 01-Mar-2017 09:28:38 GMT; path=/
-    - _icl_current_language=et; expires=Wed, 01-Mar-2017 09:28:39 GMT; path=/
     Location:
     - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/1d0b281d-b769-4e94-8c67-faa1cb1b1395/Helmen-K%C3%BCtt/
-    Cache-Control:
-    - max-age=43200
-    Expires:
-    - Tue, 28 Feb 2017 21:28:38 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -45,4 +48,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Tue, 28 Feb 2017 09:28:39 GMT
+recorded_at: Mon, 06 Mar 2017 04:19:15 GMT
