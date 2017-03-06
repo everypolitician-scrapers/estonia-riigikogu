@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:22:21 GMT
+    - Mon, 06 Mar 2017 21:42:44 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=lmu6n7etoj96bqkh83l8v1hca6; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:22:21 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:22:22 GMT; path=/
+    - PHPSESSID=9g3vnehpn4art0o01f8uosmco6; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:42:44 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:42:45 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/ca5eb437-2288-4945-bc12-325f98008ed3/Kalle-Palling/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '62427'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:22:22 GMT
+recorded_at: Mon, 06 Mar 2017 21:42:47 GMT
