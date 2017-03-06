@@ -14,17 +14,17 @@ request:
     - Ruby
 response:
   status:
-    code: 301
-    message: Moved Permanently
+    code: 200
+    message: OK
   headers:
     Date:
-    - Mon, 06 Mar 2017 08:21:55 GMT
+    - Mon, 06 Mar 2017 21:42:18 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=u2081rl8islkpgkmlkru34qjl3; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:21:55 GMT; path=/
-    - _icl_current_language=et; expires=Tue, 07-Mar-2017 08:21:56 GMT; path=/
+    - PHPSESSID=dcajn3gshi6nmgoo2nue8vu1g7; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:42:19 GMT; path=/
+    - _icl_current_language=et; expires=Tue, 07-Mar-2017 21:42:19 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -33,8 +33,9 @@ response:
     - no-cache
     Vary:
     - Cookie
-    Location:
-    - https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/56240b7a-f393-479e-8fa4-8267be56d125/Ivari-Padar/
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,10 +43,10 @@ response:
     Access-Control-Allow-Origin:
     - "*"
     Content-Type:
-    - text/html; charset=UTF-8
+    - text/html; charset="UTF-8"
     Content-Length:
-    - '0'
+    - '58246'
   body:
-    encoding: UTF-8
+    encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 08:21:56 GMT
+recorded_at: Mon, 06 Mar 2017 21:42:22 GMT
