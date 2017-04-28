@@ -5,7 +5,7 @@
 require 'pry'
 
 Dir['.cache/www.riigikogu.ee/*.meta'].each do |f|
-  saadik = File.readlines(f).find { |l| l.include? 'saadik' } or next
+  (saadik = File.readlines(f).find { |l| l.include? 'saadik' }) || next
 
   orig = f.sub('.meta', '')
   id = saadik.split('/')[5]

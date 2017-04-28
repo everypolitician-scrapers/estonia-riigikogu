@@ -30,13 +30,13 @@ def members(page)
       faction:     content.css('li strong').text.tidy,
       commissions: content.css('li a[href*="/komisjonid/"]').map { |a| { name: a.text.tidy, link: a.attr('href') } },
       email:       content.css('li a[href*="mailto:"]').text.tidy,
-      img:         mem.css('.photo img/@src').text,
+      img:         mem.css('.photo img/@src').text
     }
   end
 
   {
     date:    date,
-    members: members,
+    members: members
   }
 end
 
