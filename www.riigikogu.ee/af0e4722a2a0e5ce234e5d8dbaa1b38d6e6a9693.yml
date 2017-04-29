@@ -18,13 +18,13 @@ response:
     message: OK
   headers:
     Date:
-    - Fri, 28 Apr 2017 06:00:32 GMT
+    - Sat, 29 Apr 2017 15:30:01 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=q47094096gajroaepmqnv2her5; path=/
-    - _icl_current_language=et; expires=Sat, 29-Apr-2017 06:00:32 GMT; path=/
-    - _icl_current_language=et; expires=Sat, 29-Apr-2017 06:00:33 GMT; path=/
+    - PHPSESSID=4e2cqtpgikt99qqibj1g9dd9c2; path=/
+    - _icl_current_language=et; expires=Sun, 30-Apr-2017 15:30:02 GMT; path=/
+    - _icl_current_language=et; expires=Sun, 30-Apr-2017 15:30:02 GMT; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -49,4 +49,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 28 Apr 2017 06:00:37 GMT
+recorded_at: Sat, 29 Apr 2017 15:30:07 GMT
