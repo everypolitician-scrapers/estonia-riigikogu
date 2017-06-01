@@ -1,0 +1,52 @@
+---
+request:
+  method: get
+  uri: https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/289fc421-d890-4401-ba74-4dc6813f0403/Liisa-Ly-Pakosta
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Thu, 01 Jun 2017 18:14:49 GMT
+    Server:
+    - Mongrel2/1.9.1
+    Set-Cookie:
+    - PHPSESSID=6og6qmc9ud9k5fe5o1c0nq7s21; path=/
+    - _icl_current_language=et; expires=Fri, 02-Jun-2017 18:14:49 GMT; path=/
+    - _icl_current_language=et; expires=Fri, 02-Jun-2017 18:14:49 GMT; path=/
+    Expires:
+    - Thu, 19 Nov 1981 08:52:00 GMT
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Pragma:
+    - no-cache
+    Vary:
+    - Cookie
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
+    X-Frame-Options:
+    - SAMEORIGIN
+    X-Xss-Protecion:
+    - 1; mode=block
+    Access-Control-Allow-Origin:
+    - "*"
+    Transfer-Encoding:
+    - chunked
+    Content-Type:
+    - text/html; charset="UTF-8"
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Thu, 01 Jun 2017 18:14:54 GMT
