@@ -1,0 +1,52 @@
+---
+request:
+  method: get
+  uri: https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/saadik/db788688-d7a6-4af8-8cee-3004adb948f5/Margus-Tsahkna
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Tue, 13 Jun 2017 13:45:02 GMT
+    Server:
+    - Mongrel2/1.9.1
+    Set-Cookie:
+    - PHPSESSID=2b9opg87ks8ao59mrf0ti25og5; path=/
+    - _icl_current_language=et; expires=Wed, 14-Jun-2017 13:45:02 GMT; path=/
+    - _icl_current_language=et; expires=Wed, 14-Jun-2017 13:45:02 GMT; path=/
+    Expires:
+    - Thu, 19 Nov 1981 08:52:00 GMT
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Pragma:
+    - no-cache
+    Vary:
+    - Cookie
+    Link:
+    - "<https://www.riigikogu.ee/?p=515>; rel=shortlink"
+    - <https://www.riigikogu.ee/wp-json/>; rel="https://api.w.org/"
+    X-Frame-Options:
+    - SAMEORIGIN
+    X-Xss-Protecion:
+    - 1; mode=block
+    Access-Control-Allow-Origin:
+    - "*"
+    Transfer-Encoding:
+    - chunked
+    Content-Type:
+    - text/html; charset="UTF-8"
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 13 Jun 2017 13:45:06 GMT
