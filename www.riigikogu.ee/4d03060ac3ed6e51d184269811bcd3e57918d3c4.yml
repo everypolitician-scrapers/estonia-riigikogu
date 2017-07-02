@@ -18,11 +18,11 @@ response:
     message: OK
   headers:
     Date:
-    - Sat, 01 Jul 2017 13:22:31 GMT
+    - Sun, 02 Jul 2017 19:08:25 GMT
     Server:
     - Mongrel2/1.9.1
     Set-Cookie:
-    - PHPSESSID=su92h8k7s2300egbbirttdtoo1; path=/
+    - PHPSESSID=vk0n9qphq8pio2i7kn535fb0g4; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
     Cache-Control:
@@ -47,4 +47,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 01 Jul 2017 13:22:36 GMT
+recorded_at: Sun, 02 Jul 2017 19:08:29 GMT
