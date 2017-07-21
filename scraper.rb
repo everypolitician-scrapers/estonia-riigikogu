@@ -9,9 +9,9 @@ require 'scraperwiki'
 
 require_rel 'lib'
 
-require 'scraped_page_archive/open-uri'
-# require 'open-uri/cached'
-# OpenURI::Cache.cache_path = '.cache'
+# require 'scraped_page_archive/open-uri'
+require 'open-uri/cached'
+OpenURI::Cache.cache_path = '.cache'
 
 url = 'https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/'
 page = Riigikogu::Members.new(response: Scraped::Request.new(url: url).response)
