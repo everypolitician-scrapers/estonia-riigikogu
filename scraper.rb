@@ -17,7 +17,10 @@ url = 'https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/'
 page = Riigikogu::Members.new(response: Scraped::Request.new(url: url).response)
 
 warn "Found #{page.members.count} members"
-page.members.each do |member|
-  data = Riigikogu::Member.new(response: Scraped::Request.new(url: member.url).response).to_h
-  ScraperWiki.save_sqlite([:id], data)
+data = page.members.map do |member|
+  Riigikogu::Member.new(response: Scraped::Request.new(url: member.url).response).to_h
 end
+data.each { |mem| puts mem.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h } if ENV['MORPH_DEBUG']
+
+ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
+ScraperWiki.save_sqlite([:id], data)
