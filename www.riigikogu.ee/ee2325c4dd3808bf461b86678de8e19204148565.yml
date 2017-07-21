@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Wed, 19 Jul 2017 17:20:32 GMT
+    - Fri, 21 Jul 2017 06:14:38 GMT
     Server:
     - Mongrel2/1.9.1
     Vary:
@@ -26,9 +26,9 @@ response:
     Cache-Control:
     - max-age=3, must-revalidate, max-age=43200
     Last-Modified:
-    - Wed, 19 Jul 2017 14:07:08 GMT
+    - Fri, 21 Jul 2017 02:19:21 GMT
     Expires:
-    - Thu, 20 Jul 2017 05:20:32 GMT
+    - Fri, 21 Jul 2017 18:14:38 GMT
     X-Frame-Options:
     - SAMEORIGIN
     X-Xss-Protecion:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 19 Jul 2017 17:20:33 GMT
+recorded_at: Fri, 21 Jul 2017 06:14:38 GMT
